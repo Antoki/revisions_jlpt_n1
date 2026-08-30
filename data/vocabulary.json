@@ -1,0 +1,872 @@
+[
+  {
+    "id": 1,
+    "kanji": "放棄",
+    "kana": "ほうき",
+    "meaning": "abandonment",
+    "meaningFr": "abandon, renonciation",
+    "nuance": "",
+    "example": "",
+    "group": "1"
+  },
+  {
+    "id": 2,
+    "kanji": "共存",
+    "kana": "きょうぞん",
+    "meaning": "coexistence",
+    "meaningFr": "coexistence",
+    "nuance": "両立 s'utilise pour la gestion active de deux choses (ex: travail/famille). 共存 est une coexistence passive (ex: nature/humain).",
+    "example": "",
+    "group": "1"
+  },
+  {
+    "id": 3,
+    "kanji": "両立",
+    "kana": "りょうりつ",
+    "meaning": "compatibility",
+    "meaningFr": "conciliation, mener de front",
+    "nuance": "両立 s'utilise pour la gestion active de deux choses (ex: travail/famille). 共存 est une coexistence passive (ex: nature/humain).",
+    "example": "",
+    "group": "1"
+  },
+  {
+    "id": 4,
+    "kanji": "分配",
+    "kana": "ぶんぱい",
+    "meaning": "distribution",
+    "meaningFr": "répartition, distribution",
+    "nuance": "",
+    "example": "",
+    "group": "1"
+  },
+  {
+    "id": 5,
+    "kanji": "干渉",
+    "kana": "かんしょう",
+    "meaning": "interference",
+    "meaningFr": "ingérence, interférence",
+    "nuance": "",
+    "example": "",
+    "group": "2"
+  },
+  {
+    "id": 6,
+    "kanji": "推移",
+    "kana": "すいい",
+    "meaning": "transition",
+    "meaningFr": "évolution, transition",
+    "nuance": "",
+    "example": "",
+    "group": "2"
+  },
+  {
+    "id": 7,
+    "kanji": "停滞",
+    "kana": "ていたい",
+    "meaning": "stagnation",
+    "meaningFr": "stagnation",
+    "nuance": "",
+    "example": "",
+    "group": "2"
+  },
+  {
+    "id": 8,
+    "kanji": "殺到",
+    "kana": "さっとう",
+    "meaning": "inundation",
+    "meaningFr": "afflux massif, affluence",
+    "nuance": "",
+    "example": "",
+    "group": "2"
+  },
+  {
+    "id": 9,
+    "kanji": "渡日",
+    "kana": "とにち",
+    "meaning": "come to Japan",
+    "meaningFr": "venue au Japon (pour une personne)",
+    "nuance": "伝来 s'applique aux concepts et objets (bouddhisme, armes) introduits au pays. 渡日 s'applique uniquement au voyage d'une personne physique vers le Japon.",
+    "example": "",
+    "group": "3"
+  },
+  {
+    "id": 10,
+    "kanji": "流通",
+    "kana": "りゅうつう",
+    "meaning": "distribution",
+    "meaningFr": "circulation, distribution commerciale",
+    "nuance": "",
+    "example": "",
+    "group": "3"
+  },
+  {
+    "id": 11,
+    "kanji": "伝来",
+    "kana": "でんらい",
+    "meaning": "introduction",
+    "meaningFr": "introduction, transmission historique",
+    "nuance": "伝来 s'applique aux concepts et objets (bouddhisme, armes) introduits au pays. 渡日 s'applique uniquement au voyage d'une personne physique vers le Japon.",
+    "example": "",
+    "group": "3"
+  },
+  {
+    "id": 12,
+    "kanji": "侵入",
+    "kana": "しんにゅう",
+    "meaning": "invasion",
+    "meaningFr": "invasion, intrusion",
+    "nuance": "",
+    "example": "",
+    "group": "3"
+  },
+  {
+    "id": 13,
+    "kanji": "ねじる",
+    "kana": "ねじる",
+    "meaning": "screw",
+    "meaningFr": "tordre, visser",
+    "nuance": "ひねる (捻る) : tourner un objet sur un axe fixe (un robinet, un bouton). ねじる (捻じる) : tordre physiquement les deux extrémités d'une chose (essorer).",
+    "example": "",
+    "group": "4"
+  },
+  {
+    "id": 14,
+    "kanji": "ひねる",
+    "kana": "ひねる",
+    "meaning": "turn",
+    "meaningFr": "tourner (robinet, interrupteur)",
+    "nuance": "ひねる (捻る) : tourner un objet sur un axe fixe (un robinet, un bouton). ねじる (捻じる) : tordre physiquement les deux extrémités d'une chose (essorer).",
+    "example": "",
+    "group": "4"
+  },
+  {
+    "id": 15,
+    "kanji": "つなげる",
+    "kana": "つなげる",
+    "meaning": "connect",
+    "meaningFr": "connecter, relier",
+    "nuance": "",
+    "example": "",
+    "group": "4"
+  },
+  {
+    "id": 16,
+    "kanji": "しめる",
+    "kana": "しめる",
+    "meaning": "tighten",
+    "meaningFr": "serrer, fermer",
+    "nuance": "",
+    "example": "",
+    "group": "4"
+  },
+  {
+    "id": 17,
+    "kanji": "こもる",
+    "kana": "こもる",
+    "meaning": "be filled with",
+    "meaningFr": "s'accumuler, stagner, être confiné",
+    "nuance": "Spécifique aux choses immatérielles qui restent bloquées dans un espace clos (humidité, chaleur, odeurs, ou une personne qui s'enferme).",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 18,
+    "kanji": "だまる",
+    "kana": "だまる",
+    "meaning": "stay silent",
+    "meaningFr": "se taire",
+    "nuance": "",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 19,
+    "kanji": "うるおう",
+    "kana": "うるおう",
+    "meaning": "moisten",
+    "meaningFr": "s'humidifier, s'enrichir",
+    "nuance": "",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 20,
+    "kanji": "はまる",
+    "kana": "はまる",
+    "meaning": "get into",
+    "meaningFr": "s'emboîter, être coincé, être accro",
+    "nuance": "",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 21,
+    "kanji": "からむ",
+    "kana": "からむ",
+    "meaning": "tangle",
+    "meaningFr": "s'emmêler, s'impliquer",
+    "nuance": "",
+    "example": "",
+    "group": "6"
+  },
+  {
+    "id": 22,
+    "kanji": "よみがえる",
+    "kana": "よみがえる",
+    "meaning": "be revived",
+    "meaningFr": "ressusciter, renaître (souvenirs)",
+    "nuance": "",
+    "example": "",
+    "group": "6"
+  },
+  {
+    "id": 23,
+    "kanji": "ぼやける",
+    "kana": "ぼやける",
+    "meaning": "get blurred",
+    "meaningFr": "se brouiller, devenir flou",
+    "nuance": "",
+    "example": "",
+    "group": "6"
+  },
+  {
+    "id": 24,
+    "kanji": "とろける",
+    "kana": "とろける",
+    "meaning": "melt",
+    "meaningFr": "fondre (souvent en bouche)",
+    "nuance": "",
+    "example": "",
+    "group": "6"
+  },
+  {
+    "id": 25,
+    "kanji": "あくせく",
+    "kana": "あくせく",
+    "meaning": "busily",
+    "meaningFr": "sans répit, avec acharnement",
+    "nuance": "あたふた décrit la panique face à un imprévu (courir partout). あくせく décrit le fait de travailler de manière acharnée, trimer sans répit.",
+    "example": "",
+    "group": "7"
+  },
+  {
+    "id": 26,
+    "kanji": "あたふた",
+    "kana": "あたふた",
+    "meaning": "hurriedly",
+    "meaningFr": "en hâte, paniqué, désemparé",
+    "nuance": "あたふた décrit la panique face à un imprévu (courir partout). あくせく décrit le fait de travailler de manière acharnée, trimer sans répit.",
+    "example": "",
+    "group": "7"
+  },
+  {
+    "id": 27,
+    "kanji": "やきもき",
+    "kana": "やきもき",
+    "meaning": "jealous / anxious",
+    "meaningFr": "s'inquiéter, se faire du mauvais sang",
+    "nuance": "",
+    "example": "",
+    "group": "7"
+  },
+  {
+    "id": 28,
+    "kanji": "ちやほや",
+    "kana": "ちやほや",
+    "meaning": "pampered",
+    "meaningFr": "choyé, cajolé, flatté",
+    "nuance": "",
+    "example": "",
+    "group": "7"
+  },
+  {
+    "id": 29,
+    "kanji": "げっそり",
+    "kana": "げっそり",
+    "meaning": "haggard",
+    "meaningFr": "abattu, amaigri soudainement",
+    "nuance": "",
+    "example": "",
+    "group": "8"
+  },
+  {
+    "id": 30,
+    "kanji": "びっしり",
+    "kana": "びっしり",
+    "meaning": "tightly",
+    "meaningFr": "étroitement, tassé, sans espace",
+    "nuance": "",
+    "example": "",
+    "group": "8"
+  },
+  {
+    "id": 31,
+    "kanji": "さっぱり",
+    "kana": "さっぱり",
+    "meaning": "completely",
+    "meaningFr": "(pas) du tout (avec négation) / rafraîchi",
+    "nuance": "",
+    "example": "",
+    "group": "8"
+  },
+  {
+    "id": 32,
+    "kanji": "てっきり",
+    "kana": "てっきり",
+    "meaning": "certainly",
+    "meaningFr": "persuadé que, sans l'ombre d'un doute",
+    "nuance": "S'utilise toujours avec une erreur de jugement. Il signifie 'J'étais persuadé que... (mais en fait non)'.",
+    "example": "",
+    "group": "8"
+  },
+  {
+    "id": 33,
+    "kanji": "現に",
+    "kana": "げんに",
+    "meaning": "actually",
+    "meaningFr": "dans les faits, la preuve en est",
+    "nuance": "現に sert à introduire un exemple concret qui prouve ce qu'on vient de dire ('La preuve en est que...'). 実に est un amplificateur ('vraiment/très').",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 34,
+    "kanji": "実に",
+    "kana": "じつに",
+    "meaning": "really",
+    "meaningFr": "vraiment, tout à fait",
+    "nuance": "現に sert à introduire un exemple concret qui prouve ce qu'on vient de dire ('La preuve en est que...'). 実に est un amplificateur ('vraiment/très').",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 35,
+    "kanji": "真に",
+    "kana": "しんに",
+    "meaning": "truly",
+    "meaningFr": "véritablement",
+    "nuance": "",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 36,
+    "kanji": "直に",
+    "kana": "じかに",
+    "meaning": "directly",
+    "meaningFr": "directement, en personne",
+    "nuance": "",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 37,
+    "kanji": "かろうじて",
+    "kana": "かろうじて",
+    "meaning": "barely",
+    "meaningFr": "de justesse, à peine",
+    "nuance": "",
+    "example": "",
+    "group": "10"
+  },
+  {
+    "id": 38,
+    "kanji": "つとめて",
+    "kana": "つとめて",
+    "meaning": "diligently",
+    "meaningFr": "en s'efforçant de",
+    "nuance": "",
+    "example": "",
+    "group": "10"
+  },
+  {
+    "id": 39,
+    "kanji": "とかく",
+    "kana": "とかく",
+    "meaning": "rather",
+    "meaningFr": "avoir tendance à",
+    "nuance": "",
+    "example": "",
+    "group": "10"
+  },
+  {
+    "id": 40,
+    "kanji": "しいて",
+    "kana": "しいて",
+    "meaning": "forcibly",
+    "meaningFr": "si je dois me forcer (à choisir/dire)",
+    "nuance": "Souvent utilisé dans 'しいて言えば' : 'Si je dois vraiment me forcer à choisir / à dire quelque chose'.",
+    "example": "",
+    "group": "10"
+  },
+  {
+    "id": 41,
+    "kanji": "切実",
+    "kana": "せつじつ",
+    "meaning": "earnest",
+    "meaningFr": "pressant, urgent, profond",
+    "nuance": "",
+    "example": "",
+    "group": "11"
+  },
+  {
+    "id": 42,
+    "kanji": "ぞんざい",
+    "kana": "ぞんざい",
+    "meaning": "half-hearted",
+    "meaningFr": "négligé, bâclé, impoli",
+    "nuance": "露骨 signifie 'sans filtre', montrer ses émotions de façon flagrante. ぞんざい décrit une action faite à la va-vite, de façon irrespectueuse.",
+    "example": "",
+    "group": "11"
+  },
+  {
+    "id": 43,
+    "kanji": "露骨",
+    "kana": "ろこつ",
+    "meaning": "blatant",
+    "meaningFr": "flagrant, ouvert, sans retenue",
+    "nuance": "露骨 signifie 'sans filtre', montrer ses émotions de façon flagrante. ぞんざい décrit une action faite à la va-vite, de façon irrespectueuse.",
+    "example": "",
+    "group": "11"
+  },
+  {
+    "id": 44,
+    "kanji": "大幅",
+    "kana": "おおはば",
+    "meaning": "broad",
+    "meaningFr": "drastique, de manière importante",
+    "nuance": "",
+    "example": "",
+    "group": "11"
+  },
+  {
+    "id": 45,
+    "kanji": "強制的",
+    "kana": "きょうせいてき",
+    "meaning": "compulsorily",
+    "meaningFr": "obligatoire, forcé",
+    "nuance": "",
+    "example": "",
+    "group": "12"
+  },
+  {
+    "id": 46,
+    "kanji": "画期的",
+    "kana": "かっきてき",
+    "meaning": "revolutionary",
+    "meaningFr": "révolutionnaire, inédit, marquant",
+    "nuance": "",
+    "example": "",
+    "group": "12"
+  },
+  {
+    "id": 47,
+    "kanji": "客観的",
+    "kana": "きゃっかんてき",
+    "meaning": "objectively",
+    "meaningFr": "objectif",
+    "nuance": "",
+    "example": "",
+    "group": "12"
+  },
+  {
+    "id": 48,
+    "kanji": "自発的",
+    "kana": "じはつてき",
+    "meaning": "spontaneously",
+    "meaningFr": "spontané, de sa propre initiative",
+    "nuance": "",
+    "example": "",
+    "group": "12"
+  },
+  {
+    "id": 49,
+    "kanji": "素早い",
+    "kana": "すばやい",
+    "meaning": "quick",
+    "meaningFr": "rapide, prompt (action/réaction)",
+    "nuance": "すばやい (素早い) qualifie une réaction intellectuelle ou une action rapide. すばしっこい qualifie l'agilité physique, vif pour fuir (souris, voleur).",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 50,
+    "kanji": "すばしっこい",
+    "kana": "すばしっこい",
+    "meaning": "swift",
+    "meaningFr": "agile, vif (mouvements)",
+    "nuance": "すばやい (素早い) qualifie une réaction intellectuelle ou une action rapide. すばしっこい qualifie l'agilité physique, vif pour fuir (souris, voleur).",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 51,
+    "kanji": "あっけない",
+    "kana": "あっけない",
+    "meaning": "abrupt",
+    "meaningFr": "décevant par sa brièveté, trop court",
+    "nuance": "",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 52,
+    "kanji": "たやすい",
+    "kana": "たやすい",
+    "meaning": "easy",
+    "meaningFr": "facile, aisé",
+    "nuance": "",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 53,
+    "kanji": "順延",
+    "kana": "じゅんえん",
+    "meaning": "postponement",
+    "meaningFr": "report (à une date ultérieure)",
+    "nuance": "順延 implique un report officiel et organisé à la prochaine date (ex: événement annulé pour pluie). 遅延 désigne un retard subi et involontaire (ex: train, livraison).",
+    "example": "",
+    "group": "14"
+  },
+  {
+    "id": 54,
+    "kanji": "延長",
+    "kana": "えんちょう",
+    "meaning": "extension",
+    "meaningFr": "prolongation",
+    "nuance": "",
+    "example": "",
+    "group": "14"
+  },
+  {
+    "id": 55,
+    "kanji": "遅延",
+    "kana": "ちえん",
+    "meaning": "delay",
+    "meaningFr": "retard",
+    "nuance": "順延 implique un report officiel et organisé à la prochaine date (ex: événement annulé pour pluie). 遅延 désigne un retard subi et involontaire (ex: train, livraison).",
+    "example": "",
+    "group": "14"
+  },
+  {
+    "id": 56,
+    "kanji": "保留",
+    "kana": "ほりゅう",
+    "meaning": "pending",
+    "meaningFr": "suspension, mise en attente",
+    "nuance": "",
+    "example": "",
+    "group": "14"
+  },
+  {
+    "id": 57,
+    "kanji": "互い違い",
+    "kana": "たがいちがい",
+    "meaning": "alternately",
+    "meaningFr": "en alternance",
+    "nuance": "食い違い : contradiction logique (témoignages). すれ違い : se croiser sans se voir, malentendu émotionnel. 行き違い : se rater physiquement ou problème administratif.",
+    "example": "",
+    "group": "15"
+  },
+  {
+    "id": 58,
+    "kanji": "すれ違い",
+    "kana": "すれちがい",
+    "meaning": "disagreement",
+    "meaningFr": "chassé-croisé, malentendu",
+    "nuance": "食い違い : contradiction logique (témoignages). すれ違い : se croiser sans se voir, malentendu émotionnel. 行き違い : se rater physiquement ou problème administratif.",
+    "example": "",
+    "group": "15"
+  },
+  {
+    "id": 59,
+    "kanji": "食い違い",
+    "kana": "くいちがい",
+    "meaning": "discrepancy",
+    "meaningFr": "divergence, contradiction",
+    "nuance": "食い違い : contradiction logique (témoignages). すれ違い : se croiser sans se voir, malentendu émotionnel. 行き違い : se rater physiquement ou problème administratif.",
+    "example": "",
+    "group": "15"
+  },
+  {
+    "id": 60,
+    "kanji": "行き違い",
+    "kana": "いきちがい",
+    "meaning": "misunderstanding",
+    "meaningFr": "malentendu, se rater (personnes/courrier)",
+    "nuance": "食い違い : contradiction logique (témoignages). すれ違い : se croiser sans se voir, malentendu émotionnel. 行き違い : se rater physiquement ou problème administratif.",
+    "example": "",
+    "group": "15"
+  },
+  {
+    "id": 61,
+    "kanji": "方針",
+    "kana": "ほうしん",
+    "meaning": "policy",
+    "meaningFr": "politique, ligne de conduite",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 62,
+    "kanji": "作法",
+    "kana": "さほう",
+    "meaning": "manners",
+    "meaningFr": "manières, étiquette",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 63,
+    "kanji": "秩序",
+    "kana": "ちつじょ",
+    "meaning": "discipline / order",
+    "meaningFr": "ordre (social, public)",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 64,
+    "kanji": "貢献",
+    "kana": "こうけん",
+    "meaning": "contribution",
+    "meaningFr": "contribution",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 65,
+    "kanji": "ハンデ",
+    "kana": "ハンデ",
+    "meaning": "handicap",
+    "meaningFr": "handicap (désavantage)",
+    "nuance": "",
+    "example": "",
+    "group": "17"
+  },
+  {
+    "id": 66,
+    "kanji": "リスク",
+    "kana": "リスク",
+    "meaning": "risk",
+    "meaningFr": "risque",
+    "nuance": "",
+    "example": "",
+    "group": "17"
+  },
+  {
+    "id": 67,
+    "kanji": "コスト",
+    "kana": "コスト",
+    "meaning": "cost",
+    "meaningFr": "coût",
+    "nuance": "",
+    "example": "",
+    "group": "17"
+  },
+  {
+    "id": 68,
+    "kanji": "ギャラ",
+    "kana": "ギャラ",
+    "meaning": "payment",
+    "meaningFr": "cachet, rémunération (freelance/artiste)",
+    "nuance": "",
+    "example": "",
+    "group": "17"
+  },
+  {
+    "id": 69,
+    "kanji": "ルーズ",
+    "kana": "ルーズ",
+    "meaning": "loose",
+    "meaningFr": "laxiste, négligent",
+    "nuance": "Faux ami de l'anglais 'loose'. Appliqué à une personne, c'est un défaut signifiant 'négligent' (ex: avec l'argent, la ponctualité).",
+    "example": "",
+    "group": "18"
+  },
+  {
+    "id": 70,
+    "kanji": "スムーズ",
+    "kana": "スムーズ",
+    "meaning": "smooth",
+    "meaningFr": "fluide, sans accroc",
+    "nuance": "",
+    "example": "",
+    "group": "18"
+  },
+  {
+    "id": 71,
+    "kanji": "ネック",
+    "kana": "ネック",
+    "meaning": "bottleneck",
+    "meaningFr": "obstacle, goulot d'étranglement",
+    "nuance": "",
+    "example": "",
+    "group": "18"
+  },
+  {
+    "id": 72,
+    "kanji": "シャープ",
+    "kana": "シャープ",
+    "meaning": "sharp",
+    "meaningFr": "vif, affûté",
+    "nuance": "",
+    "example": "",
+    "group": "18"
+  },
+  {
+    "id": 73,
+    "kanji": "育児",
+    "kana": "いくじ",
+    "meaning": "childcare",
+    "meaningFr": "éducation des enfants",
+    "nuance": "",
+    "example": "",
+    "group": "1"
+  },
+  {
+    "id": 74,
+    "kanji": "苦情",
+    "kana": "くじょう",
+    "meaning": "complaint",
+    "meaningFr": "plainte, réclamation",
+    "nuance": "",
+    "example": "",
+    "group": "2"
+  },
+  {
+    "id": 75,
+    "kanji": "蛇口",
+    "kana": "じゃぐち",
+    "meaning": "faucet / tap",
+    "meaningFr": "robinet",
+    "nuance": "",
+    "example": "",
+    "group": "4"
+  },
+  {
+    "id": 76,
+    "kanji": "湿気",
+    "kana": "しっけ",
+    "meaning": "moisture / humidity",
+    "meaningFr": "humidité",
+    "nuance": "",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 77,
+    "kanji": "換気",
+    "kana": "かんき",
+    "meaning": "ventilation",
+    "meaningFr": "ventilation, aération",
+    "nuance": "",
+    "example": "",
+    "group": "5"
+  },
+  {
+    "id": 78,
+    "kanji": "酪農家",
+    "kana": "らくのうか",
+    "meaning": "dairy farmer",
+    "meaningFr": "producteur laitier, éleveur laitier",
+    "nuance": "",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 79,
+    "kanji": "乳製品",
+    "kana": "にゅうせいひん",
+    "meaning": "dairy products",
+    "meaningFr": "produits laitiers",
+    "nuance": "",
+    "example": "",
+    "group": "9"
+  },
+  {
+    "id": 80,
+    "kanji": "技術",
+    "kana": "ぎじゅつ",
+    "meaning": "technology / skill",
+    "meaningFr": "technique, technologie",
+    "nuance": "",
+    "example": "",
+    "group": "12"
+  },
+  {
+    "id": 81,
+    "kanji": "係員",
+    "kana": "かかりいん",
+    "meaning": "attendant / clerk",
+    "meaningFr": "agent, préposé, employé",
+    "nuance": "",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 82,
+    "kanji": "惨事",
+    "kana": "さんじ",
+    "meaning": "disaster / tragedy",
+    "meaningFr": "catastrophe (大惨事 = grave catastrophe)",
+    "nuance": "",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 83,
+    "kanji": "免れる",
+    "kana": "まぬがれる",
+    "meaning": "to escape / avoid",
+    "meaningFr": "échapper à, éviter",
+    "nuance": "",
+    "example": "",
+    "group": "13"
+  },
+  {
+    "id": 84,
+    "kanji": "目撃",
+    "kana": "もくげき",
+    "meaning": "witnessing",
+    "meaningFr": "observation (目撃者 = témoin)",
+    "nuance": "食い違い : contradiction logique (témoignages). すれ違い : se croiser sans se voir, malentendu émotionnel. 行き違い : se rater physiquement ou problème administratif.",
+    "example": "",
+    "group": "15"
+  },
+  {
+    "id": 85,
+    "kanji": "乱れる",
+    "kana": "みだれる",
+    "meaning": "to be disturbed",
+    "meaningFr": "être en désordre, être troublé",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 86,
+    "kanji": "整備",
+    "kana": "せいび",
+    "meaning": "maintenance / provision",
+    "meaningFr": "mise en place, aménagement",
+    "nuance": "",
+    "example": "",
+    "group": "16"
+  },
+  {
+    "id": 87,
+    "kanji": "輸送",
+    "kana": "ゆそう",
+    "meaning": "transportation",
+    "meaningFr": "transport, acheminement",
+    "nuance": "",
+    "example": "",
+    "group": "17"
+  }
+]
