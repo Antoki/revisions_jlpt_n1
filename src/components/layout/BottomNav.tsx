@@ -1,11 +1,12 @@
 "use client";
 
-import { BookOpen, Sparkles } from "lucide-react";
+import { BookOpen, Layers, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const tabs = [
   { href: "/", label: "Daily", icon: Sparkles },
+  { href: "/practice", label: "Review", icon: Layers },
   { href: "/dictionary", label: "Dictionary", icon: BookOpen },
 ] as const;
 
@@ -17,7 +18,7 @@ export function BottomNav() {
       aria-label="Main"
       className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur"
     >
-      <ul className="mx-auto grid max-w-lg grid-cols-2">
+      <ul className="mx-auto grid max-w-lg grid-cols-3">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive =

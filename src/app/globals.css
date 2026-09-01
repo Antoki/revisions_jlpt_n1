@@ -9,6 +9,7 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-ok: var(--ok);
   --font-sans: var(--font-noto-sans-jp), ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -19,6 +20,7 @@
   --muted: #6b625a;
   --line: #e6ddd2;
   --accent: #b42318;
+  --ok: #2f6b4f;
 }
 
 .dark {
@@ -28,6 +30,7 @@
   --muted: #b0a59a;
   --line: #3a322c;
   --accent: #e25a45;
+  --ok: #8fcaa8;
 }
 
 body {
