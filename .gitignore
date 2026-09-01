@@ -40,7 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# generated daily challenges
+.cache
+
 data/source
 
+# agents and skills
 AGENTS.md
 CLAUDE.md
+.agents 
+.claude
