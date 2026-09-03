@@ -868,5 +868,365 @@
     "nuance": "",
     "example": "",
     "group": "17"
+  },
+  {
+    "id": 88,
+    "kanji": "凍える",
+    "kana": "こごえる",
+    "meaning": "freeze",
+    "meaningFr": "geler, être glacé",
+    "nuance": "",
+    "example": "",
+    "group": "19"
+  },
+  {
+    "id": 89,
+    "kanji": "鍛える",
+    "kana": "きたえる",
+    "meaning": "train",
+    "meaningFr": "entraîner, forger",
+    "nuance": "",
+    "example": "",
+    "group": "19"
+  },
+  {
+    "id": 90,
+    "kanji": "震える",
+    "kana": "ふるえる",
+    "meaning": "shake",
+    "meaningFr": "trembler",
+    "nuance": "",
+    "example": "",
+    "group": "19"
+  },
+  {
+    "id": 91,
+    "kanji": "控える",
+    "kana": "ひかえる",
+    "meaning": "refrain",
+    "meaningFr": "s'abstenir, modérer, noter",
+    "nuance": "",
+    "example": "",
+    "group": "19"
+  },
+  {
+    "id": 92,
+    "kanji": "怠る",
+    "kana": "おこたる",
+    "meaning": "neglect",
+    "meaningFr": "négliger, manquer à (un devoir)",
+    "nuance": "",
+    "example": "",
+    "group": "20"
+  },
+  {
+    "id": 93,
+    "kanji": "怠ける",
+    "kana": "なまける",
+    "meaning": "be lazy",
+    "meaningFr": "paresser, être fainéant",
+    "nuance": "",
+    "example": "",
+    "group": "20"
+  },
+  {
+    "id": 94,
+    "kanji": "劣る",
+    "kana": "おとる",
+    "meaning": "be inferior",
+    "meaningFr": "être inférieur, être moins bon",
+    "nuance": "",
+    "example": "",
+    "group": "20"
+  },
+  {
+    "id": 95,
+    "kanji": "迫る",
+    "kana": "せまる",
+    "meaning": "approach",
+    "meaningFr": "approcher, presser, forcer",
+    "nuance": "",
+    "example": "",
+    "group": "20"
+  },
+  {
+    "id": 96,
+    "kanji": "浸す",
+    "kana": "ひたす",
+    "meaning": "soak",
+    "meaningFr": "tremper, imbiber",
+    "nuance": "",
+    "example": "",
+    "group": "21"
+  },
+  {
+    "id": 97,
+    "kanji": "催す",
+    "kana": "もよおす",
+    "meaning": "host",
+    "meaningFr": "organiser, ressentir (une envie)",
+    "nuance": "",
+    "example": "",
+    "group": "21"
+  },
+  {
+    "id": 98,
+    "kanji": "犯す",
+    "kana": "おかす",
+    "meaning": "violate",
+    "meaningFr": "commettre (un crime), violer",
+    "nuance": "",
+    "example": "",
+    "group": "21"
+  },
+  {
+    "id": 99,
+    "kanji": "施す",
+    "kana": "ほどこす",
+    "meaning": "enforce",
+    "meaningFr": "appliquer, pratiquer, donner",
+    "nuance": "",
+    "example": "",
+    "group": "21"
+  },
+  {
+    "id": 100,
+    "kanji": "怒り",
+    "kana": "いかり",
+    "meaning": "anger",
+    "meaningFr": "colère",
+    "nuance": "",
+    "example": "",
+    "group": "22"
+  },
+  {
+    "id": 101,
+    "kanji": "悟り",
+    "kana": "さとり",
+    "meaning": "understanding",
+    "meaningFr": "illumination, compréhension spirituelle",
+    "nuance": "",
+    "example": "",
+    "group": "22"
+  },
+  {
+    "id": 102,
+    "kanji": "憤り",
+    "kana": "いきどおり",
+    "meaning": "indignation",
+    "meaningFr": "indignation, ressentiment",
+    "nuance": "",
+    "example": "",
+    "group": "22"
+  },
+  {
+    "id": 103,
+    "kanji": "誇り",
+    "kana": "ほこり",
+    "meaning": "pride",
+    "meaningFr": "fierté",
+    "nuance": "",
+    "example": "",
+    "group": "22"
+  },
+  {
+    "id": 104,
+    "kanji": "遮る",
+    "kana": "さえぎる",
+    "meaning": "block",
+    "meaningFr": "bloquer, barrer, interrompre",
+    "nuance": "",
+    "example": "",
+    "group": "23"
+  },
+  {
+    "id": 105,
+    "kanji": "縛る",
+    "kana": "しばる",
+    "meaning": "bind",
+    "meaningFr": "attacher, ligoter, contraindre",
+    "nuance": "",
+    "example": "",
+    "group": "23"
+  },
+  {
+    "id": 106,
+    "kanji": "陥る",
+    "kana": "おちいる",
+    "meaning": "fall into",
+    "meaningFr": "tomber dans (une situation, un piège)",
+    "nuance": "",
+    "example": "",
+    "group": "23"
+  },
+  {
+    "id": 107,
+    "kanji": "偏る",
+    "kana": "かたよる",
+    "meaning": "be biased",
+    "meaningFr": "être partial, être déséquilibré",
+    "nuance": "",
+    "example": "",
+    "group": "23"
+  },
+  {
+    "id": 108,
+    "kanji": "網",
+    "kana": "あみ",
+    "meaning": "net",
+    "meaningFr": "filet, réseau",
+    "nuance": "",
+    "example": "",
+    "group": "24"
+  },
+  {
+    "id": 109,
+    "kanji": "鎖",
+    "kana": "くさり",
+    "meaning": "chain",
+    "meaningFr": "chaîne",
+    "nuance": "",
+    "example": "",
+    "group": "24"
+  },
+  {
+    "id": 110,
+    "kanji": "縄",
+    "kana": "なわ",
+    "meaning": "rope",
+    "meaningFr": "corde",
+    "nuance": "",
+    "example": "",
+    "group": "24"
+  },
+  {
+    "id": 111,
+    "kanji": "綱",
+    "kana": "つな",
+    "meaning": "rope",
+    "meaningFr": "gros câble, amarre",
+    "nuance": "",
+    "example": "",
+    "group": "24"
+  },
+  {
+    "id": 112,
+    "kanji": "尊重",
+    "kana": "そんちょう",
+    "meaning": "respect",
+    "meaningFr": "respect, estime",
+    "nuance": "",
+    "example": "",
+    "group": "25"
+  },
+  {
+    "id": 113,
+    "kanji": "活躍",
+    "kana": "かつやく",
+    "meaning": "activity",
+    "meaningFr": "activité, succès, jouer un rôle actif",
+    "nuance": "",
+    "example": "",
+    "group": "25"
+  },
+  {
+    "id": 114,
+    "kanji": "活用",
+    "kana": "かつよう",
+    "meaning": "utilization",
+    "meaningFr": "utilisation, mise à profit",
+    "nuance": "",
+    "example": "",
+    "group": "25"
+  },
+  {
+    "id": 115,
+    "kanji": "軽率",
+    "kana": "けいそつ",
+    "meaning": "rashness",
+    "meaningFr": "imprudence, légèreté, étourderie",
+    "nuance": "",
+    "example": "",
+    "group": "25"
+  },
+  {
+    "id": 116,
+    "kanji": "現役",
+    "kana": "げんえき",
+    "meaning": "active",
+    "meaningFr": "en service, actif",
+    "nuance": "",
+    "example": "",
+    "group": "26"
+  },
+  {
+    "id": 117,
+    "kanji": "肝心",
+    "kana": "かんじん",
+    "meaning": "essential",
+    "meaningFr": "essentiel, crucial, fondamental",
+    "nuance": "",
+    "example": "",
+    "group": "26"
+  },
+  {
+    "id": 118,
+    "kanji": "関心",
+    "kana": "かんしん",
+    "meaning": "interest",
+    "meaningFr": "intérêt, curiosité",
+    "nuance": "",
+    "example": "",
+    "group": "26"
+  },
+  {
+    "id": 119,
+    "kanji": "突破",
+    "kana": "とっぱ",
+    "meaning": "breakthrough",
+    "meaningFr": "percée, franchissement, dépassement",
+    "nuance": "",
+    "example": "",
+    "group": "26"
+  },
+  {
+    "id": 120,
+    "kanji": "名簿",
+    "kana": "めいぼ",
+    "meaning": "register",
+    "meaningFr": "registre, liste de noms",
+    "nuance": "",
+    "example": "",
+    "group": "27"
+  },
+  {
+    "id": 121,
+    "kanji": "繁盛",
+    "kana": "はんじょう",
+    "meaning": "prosperity",
+    "meaningFr": "prospérité, succès (commerce)",
+    "nuance": "",
+    "example": "",
+    "group": "27"
+  },
+  {
+    "id": 122,
+    "kanji": "発作",
+    "kana": "ほっさ",
+    "meaning": "seizure",
+    "meaningFr": "crise (médicale), accès",
+    "nuance": "",
+    "example": "",
+    "group": "27"
+  },
+  {
+    "id": 123,
+    "kanji": "悪気",
+    "kana": "わるぎ",
+    "meaning": "malice",
+    "meaningFr": "malveillance, mauvaise intention",
+    "nuance": "",
+    "example": "",
+    "group": "27"
   }
 ]
