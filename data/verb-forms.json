@@ -1,0 +1,338 @@
+[
+  {
+    "id": "kangaeru",
+    "verb": "考える",
+    "kana": "かんがえる",
+    "pattern": "Passive, causative, and causative-passive. The same endings apply to any verb.",
+    "patternFr": "Passif, causatif, et causatif-passif. Les mêmes terminaisons valent pour n'importe quel verbe.",
+    "example": "あの映画を見て、人生についていろいろ考えさせられた。",
+    "forms": [
+      {
+        "form": "考えられた",
+        "kana": "かんがえられた",
+        "label": "passive / potential",
+        "labelFr": "passif ou potentiel",
+        "meaning": "could think; the thought arose",
+        "meaningFr": "a pu penser ; la pensée est venue"
+      },
+      {
+        "form": "考えさせた",
+        "kana": "かんがえさせた",
+        "label": "causative",
+        "labelFr": "causatif",
+        "meaning": "made someone else think",
+        "meaningFr": "a fait réfléchir quelqu'un d'autre"
+      },
+      {
+        "form": "考えさせられた",
+        "kana": "かんがえさせられた",
+        "label": "causative-passive",
+        "labelFr": "causatif-passif",
+        "meaning": "was made to think",
+        "meaningFr": "a été amené à réfléchir"
+      },
+      {
+        "form": "考えさせられてくれた",
+        "kana": "かんがえさせられてくれた",
+        "label": "causative-passive + くれる",
+        "labelFr": "causatif-passif + くれる",
+        "meaning": "was made to think, as a favor",
+        "meaningFr": "s'est fait faire réfléchir, comme un service"
+      }
+    ]
+  },
+  {
+    "id": "matsu",
+    "verb": "待つ",
+    "kana": "まつ",
+    "pattern": "The ending chooses who waits, who is made to wait, and who is awaited.",
+    "patternFr": "La terminaison dit qui attend, qui est forcé d'attendre, et qui est attendu.",
+    "example": "先日の大雨によって被害を受けた道路の復旧が待たれている。",
+    "forms": [
+      {
+        "form": "待たせている",
+        "kana": "またせている",
+        "label": "causative",
+        "labelFr": "causatif",
+        "meaning": "is making someone wait",
+        "meaningFr": "fait attendre quelqu'un"
+      },
+      {
+        "form": "待たされている",
+        "kana": "またされている",
+        "label": "causative-passive",
+        "labelFr": "causatif-passif",
+        "meaning": "is being made to wait",
+        "meaningFr": "se fait faire attendre"
+      },
+      {
+        "form": "待たれている",
+        "kana": "またれている",
+        "label": "passive",
+        "labelFr": "passif",
+        "meaning": "is awaited",
+        "meaningFr": "est attendu"
+      },
+      {
+        "form": "待っていられる",
+        "kana": "まっていられる",
+        "label": "potential of ている",
+        "labelFr": "potentiel de ている",
+        "meaning": "can keep waiting",
+        "meaningFr": "peut se permettre d'attendre"
+      }
+    ]
+  },
+  {
+    "id": "okuru",
+    "verb": "送る",
+    "kana": "おくる",
+    "pattern": "Honorific direction. Respect, humble, and whether the gift comes toward the speaker.",
+    "patternFr": "Direction honorifique : respect, humilité, et si le don vient vers celui qui parle.",
+    "example": "田中さんが送ってくださったりんご、とてもおいしかったです。",
+    "forms": [
+      {
+        "form": "お送りになった",
+        "kana": "おおくりになった",
+        "label": "respect",
+        "labelFr": "respect",
+        "meaning": "someone respected sent it",
+        "meaningFr": "une personne respectée l'a envoyé"
+      },
+      {
+        "form": "送ってくださった",
+        "kana": "おくってくださった",
+        "label": "respect, toward me",
+        "labelFr": "respect, vers moi",
+        "meaning": "kindly sent it to me",
+        "meaningFr": "a eu la gentillesse de me l'envoyer"
+      },
+      {
+        "form": "送らせていただいた",
+        "kana": "おくらせていただいた",
+        "label": "humble",
+        "labelFr": "humble",
+        "meaning": "I was allowed to send it",
+        "meaningFr": "j'ai pris la liberté de l'envoyer"
+      },
+      {
+        "form": "お送り申し上げた",
+        "kana": "おおくりもうしあげた",
+        "label": "humble",
+        "labelFr": "humble",
+        "meaning": "I humbly sent it",
+        "meaningFr": "je me suis permis de l'envoyer"
+      }
+    ]
+  },
+  {
+    "id": "miru",
+    "verb": "見る",
+    "kana": "みる",
+    "pattern": "なり attaches to the dictionary form only. The other forms are the same for any verb.",
+    "patternFr": "なり se met seulement sur le dictionnaire. Les autres formes se construisent pareil sur tout verbe.",
+    "example": "彼は私の顔を見るなり、文句を言い始めた。",
+    "forms": [
+      {
+        "form": "見る",
+        "kana": "みる",
+        "label": "dictionary",
+        "labelFr": "dictionnaire",
+        "meaning": "takes なり",
+        "meaningFr": "prend なり"
+      },
+      {
+        "form": "見て",
+        "kana": "みて",
+        "label": "te-form",
+        "labelFr": "forme en て",
+        "meaning": "does not take なり",
+        "meaningFr": "ne prend pas なり"
+      },
+      {
+        "form": "見た",
+        "kana": "みた",
+        "label": "past",
+        "labelFr": "passé",
+        "meaning": "does not take なり",
+        "meaningFr": "ne prend pas なり"
+      },
+      {
+        "form": "見ている",
+        "kana": "みている",
+        "label": "progressive",
+        "labelFr": "progressif",
+        "meaning": "does not take なり",
+        "meaningFr": "ne prend pas なり"
+      }
+    ]
+  },
+  {
+    "id": "noboru",
+    "verb": "登る",
+    "kana": "のぼる",
+    "pattern": "ずじまい attaches to the ず-form only.",
+    "patternFr": "ずじまい se met seulement sur la forme en ず.",
+    "example": "日本にいる間に富士山に登りたいと思っていたが、結局登らずじまいだった。",
+    "forms": [
+      {
+        "form": "登り",
+        "kana": "のぼり",
+        "label": "masu-stem",
+        "labelFr": "radical en -i",
+        "meaning": "does not take じまい",
+        "meaningFr": "ne prend pas じまい"
+      },
+      {
+        "form": "登らない",
+        "kana": "のぼらない",
+        "label": "ない-form",
+        "labelFr": "forme en ない",
+        "meaning": "does not take じまい",
+        "meaningFr": "ne prend pas じまい"
+      },
+      {
+        "form": "登らなかった",
+        "kana": "のぼらなかった",
+        "label": "past negative",
+        "labelFr": "passé négatif",
+        "meaning": "does not take じまい",
+        "meaningFr": "ne prend pas じまい"
+      },
+      {
+        "form": "登らず",
+        "kana": "のぼらず",
+        "label": "ず-form",
+        "labelFr": "forme en ず",
+        "meaning": "takes ずじまい",
+        "meaningFr": "prend ずじまい"
+      }
+    ]
+  },
+  {
+    "id": "noru",
+    "verb": "乗る",
+    "kana": "のる",
+    "pattern": "にも after an intention attaches to the volitional only.",
+    "patternFr": "にも après une intention se met seulement sur le volitif.",
+    "example": "タクシーに乗ろうにも、乗り場には長蛇の列ができていた。",
+    "forms": [
+      {
+        "form": "乗りたい",
+        "kana": "のりたい",
+        "label": "たい",
+        "labelFr": "たい",
+        "meaning": "does not take にも",
+        "meaningFr": "ne prend pas にも"
+      },
+      {
+        "form": "乗った",
+        "kana": "のった",
+        "label": "past",
+        "labelFr": "passé",
+        "meaning": "does not take にも",
+        "meaningFr": "ne prend pas にも"
+      },
+      {
+        "form": "乗ろう",
+        "kana": "のろう",
+        "label": "volitional",
+        "labelFr": "volitif",
+        "meaning": "takes にも",
+        "meaningFr": "prend にも"
+      },
+      {
+        "form": "乗れない",
+        "kana": "のれない",
+        "label": "potential negative",
+        "labelFr": "potentiel négatif",
+        "meaning": "does not take にも",
+        "meaningFr": "ne prend pas にも"
+      }
+    ]
+  },
+  {
+    "id": "tobiagaru",
+    "verb": "飛び上がる",
+    "kana": "とびあがる",
+    "pattern": "んばかりに attaches to the ん-form of ない. Same build on any verb.",
+    "patternFr": "んばかりに se met sur la forme en ん de ない. Même construction sur tout verbe.",
+    "example": "後ろから肩をたたいたら、彼女は飛び上がらんばかりに驚いた。",
+    "forms": [
+      {
+        "form": "飛び上がろうと",
+        "kana": "とびあがろうと",
+        "label": "volitional",
+        "labelFr": "volitif",
+        "meaning": "does not form んばかり",
+        "meaningFr": "ne forme pas んばかり"
+      },
+      {
+        "form": "飛び上がらん",
+        "kana": "とびあがらん",
+        "label": "ん-form",
+        "labelFr": "forme en ん",
+        "meaning": "takes んばかりに",
+        "meaningFr": "prend んばかりに"
+      },
+      {
+        "form": "飛び上がっている",
+        "kana": "とびあがっている",
+        "label": "progressive",
+        "labelFr": "progressif",
+        "meaning": "does not form んばかり",
+        "meaningFr": "ne forme pas んばかり"
+      },
+      {
+        "form": "飛び上がりそう",
+        "kana": "とびあがりそう",
+        "label": "そう",
+        "labelFr": "そう",
+        "meaning": "does not form んばかり",
+        "meaningFr": "ne forme pas んばかり"
+      }
+    ]
+  },
+  {
+    "id": "te-aux",
+    "verb": "て-form",
+    "kana": "て",
+    "pattern": "Auxiliaries after the て-form of any verb.",
+    "patternFr": "Auxiliaires après la forme en て de n'importe quel verbe.",
+    "example": "「必ず犯人を捕まえてみせます」と刑事たちは被害者に誓った。",
+    "forms": [
+      {
+        "form": "てくれる",
+        "kana": "てくれる",
+        "label": "くれる",
+        "labelFr": "くれる",
+        "meaning": "someone does it for you",
+        "meaningFr": "quelqu'un le fait pour vous"
+      },
+      {
+        "form": "てみせる",
+        "kana": "てみせる",
+        "label": "みせる",
+        "labelFr": "みせる",
+        "meaning": "I'll show you I will",
+        "meaningFr": "je le ferai, vous verrez"
+      },
+      {
+        "form": "てもらう",
+        "kana": "てもらう",
+        "label": "もらう",
+        "labelFr": "もらう",
+        "meaning": "have someone do it for you",
+        "meaningFr": "se faire faire cela par quelqu'un"
+      },
+      {
+        "form": "ている",
+        "kana": "ている",
+        "label": "いる",
+        "labelFr": "いる",
+        "meaning": "is doing, or has done",
+        "meaningFr": "est en train de, ou a déjà fait"
+      }
+    ]
+  }
+]

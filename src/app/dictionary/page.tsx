@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { VocabularyExplorer } from "@/components/dictionary/VocabularyExplorer";
+import { getVerbForms } from "@/lib/verb-forms";
 import { getVocabulary } from "@/lib/vocabulary";
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ export default function DictionaryPage() {
           Search the full N1 list by kanji, reading, or meaning.
         </p>
       </div>
-      <VocabularyExplorer entries={entries} />
+      <VocabularyExplorer entries={entries} verbGroups={getVerbForms()} />
     </section>
   );
 }
