@@ -43,3 +43,18 @@ export function filledPassage(passage: GrammarTextPassage): string {
     })
     .join("");
 }
+
+export function insertedText(
+  blank: GrammarTextBlank,
+  choiceIndex: number | null,
+): string {
+  if (
+    choiceIndex === null ||
+    !Number.isInteger(choiceIndex) ||
+    choiceIndex < 0 ||
+    choiceIndex >= blank.choices.length
+  ) {
+    return String(blank.id);
+  }
+  return blank.choices[choiceIndex];
+}
