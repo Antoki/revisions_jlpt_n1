@@ -3,6 +3,7 @@
 import { Check, FileText, X } from "lucide-react";
 import { useEffect, useRef, useState, type RefObject } from "react";
 import {
+  insertedText,
   listQuestions,
   type GrammarTextBlank,
   type GrammarTextPassage,
@@ -17,29 +18,39 @@ export function GrammarTextSession({
 }) {
   const questions = listQuestions(passages);
   const [phase, setPhase] = useState<Phase>("idle");
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
+  const [passageIndex, setPassageIndex] = useState(0);
+  const [selected, setSelected] = useState<Record<number, number>>({});
+  const [activeBlankId, setActiveBlankId] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
   const [results, setResults] = useState<boolean[]>([]);
   const firstChoiceRef = useRef<HTMLButtonElement>(null);
   const nextButtonRef = useRef<HTMLButtonElement>(null);
-  const blankRef = useRef<HTMLSpanElement>(null);
+  const feedbackRef = useRef<HTMLDivElement>(null);
+  const passageRef = useRef<HTMLElement>(null);
+  const blankRefs = useRef(new Map<number, HTMLButtonElement>());
+  const questionRefs = useRef(new Map<number, HTMLElement>());
 
-  const current = questions[index];
+  const passage = passages[passageIndex];
+
+  function begin() {
+    const first = passages[0];
+    setPhase("active");
+    setPassageIndex(0);
+    setSelected({});
+    setActiveBlankId(first?.blanks[0]?.id ?? null);
+    setChecked(false);
+    setResults([]);
+  }
 
   useEffect(() => {
     if (phase !== "active") return;
     if (checked) {
-      nextButtonRef.current?.focus();
+      feedbackRef.current?.focus();
+      feedbackRef.current?.scrollIntoView({ block: "nearest" });
       return;
     }
-    firstChoiceRef.current?.focus();
-  }, [phase, index, checked]);
-
-  useEffect(() => {
-    if (phase !== "active") return;
-    blankRef.current?.scrollIntoView({ block: "nearest" });
-  }, [phase, index]);
+    firstChoiceRef.current?.focus({ preventScroll: true });
+  }, [phase, passageIndex, checked]);
 
   if (questions.length === 0) {
     return (
@@ -56,24 +67,20 @@ export function GrammarTextSession({
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Grammar in text</h1>
           <p className="mt-2 text-sm leading-relaxed text-muted">
-            A blank sits in a passage. Choose the expression that fits.
+            A passage stays on screen with every blank. Choose an expression
+            and it appears in the text.
           </p>
         </div>
         <div className="rounded-xl border border-line bg-surface px-4 py-6">
           <ul className="space-y-2 text-sm text-ink">
-            <li>{`${questions.length} blanks, ${passages.length} passages, in book order`}</li>
-            <li>Earlier blanks stay filled as you go</li>
-            <li>A note appears after you check</li>
+            <li>{`${passages.length} passages, ${questions.length} blanks, in book order`}</li>
+            <li>Every blank for a passage is shown together</li>
+            <li>Select a numbered blank, then the expression you want</li>
+            <li>A note appears after you check the passage</li>
           </ul>
           <button
             type="button"
-            onClick={() => {
-              setPhase("active");
-              setIndex(0);
-              setSelected(null);
-              setChecked(false);
-              setResults([]);
-            }}
+            onClick={begin}
             className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             Start
@@ -123,13 +130,7 @@ export function GrammarTextSession({
         </ul>
         <button
           type="button"
-          onClick={() => {
-            setPhase("active");
-            setIndex(0);
-            setSelected(null);
-            setChecked(false);
-            setResults([]);
-          }}
+          onClick={begin}
           className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           Start again
@@ -138,39 +139,91 @@ export function GrammarTextSession({
     );
   }
 
-  if (!current) return null;
+  if (!passage) return null;
 
-  const { passage, blank } = current;
-  const correct = selected === blank.answer;
-  const isLast = index + 1 >= questions.length;
+  const filledCount = passage.blanks.filter(
+    (blank) => selected[blank.id] !== undefined,
+  ).length;
+  const allFilled = filledCount === passage.blanks.length;
+  const isLast = passageIndex + 1 >= passages.length;
+
+  function choose(blankId: number, choiceIndex: number) {
+    setSelected((prev) => ({ ...prev, [blankId]: choiceIndex }));
+    setActiveBlankId(blankId);
+    requestAnimationFrame(() => revealBlank(blankId));
+  }
+
+  function activateBlank(blankId: number) {
+    setActiveBlankId(blankId);
+    revealQuestion(blankId);
+  }
+
+  function revealBlank(blankId: number) {
+    const node = blankRefs.current.get(blankId);
+    const container = passageRef.current;
+    if (!node || !container) return;
+    const nodeRect = node.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    const above = nodeRect.top - containerRect.top;
+    const below = nodeRect.bottom - containerRect.bottom;
+    if (nodeRect.height >= containerRect.height || above < 8) {
+      container.scrollTop += above - 8;
+      return;
+    }
+    if (below > 0) container.scrollTop += below + 8;
+  }
+
+  function revealQuestion(blankId: number) {
+    const node = questionRefs.current.get(blankId);
+    if (!node) return;
+    const stickyBottom = passageRef.current?.getBoundingClientRect().bottom ?? 0;
+    const rect = node.getBoundingClientRect();
+    const navAllowance = 96;
+    if (rect.top < stickyBottom + 12) {
+      window.scrollBy({ top: rect.top - stickyBottom - 12 });
+      return;
+    }
+    const limit = window.innerHeight - navAllowance;
+    if (rect.bottom > limit) {
+      window.scrollBy({ top: rect.bottom - limit });
+    }
+  }
 
   return (
     <div className="flex flex-col gap-5">
       <div>
         <h1 className="text-lg font-semibold tracking-tight">Grammar in text</h1>
         <p className="mt-0.5 text-sm text-muted">
-          {index + 1} / {questions.length}
+          Passage {passageIndex + 1} / {passages.length}
         </p>
       </div>
 
-      <article className="rounded-xl border border-line bg-surface px-4 py-4">
+      <article
+        ref={passageRef}
+        className="sticky top-14 z-[1] max-h-64 overflow-y-auto rounded-xl border border-line bg-surface px-4 py-4"
+      >
         {passage.lead ? (
           <p className="text-xs leading-relaxed text-muted">{passage.lead}</p>
         ) : null}
-        <p
+        <div
           key={passage.id}
           lang="ja"
-          className={`max-h-80 overflow-y-auto text-base leading-loose whitespace-pre-wrap text-ink ${
+          className={`text-base leading-loose whitespace-pre-wrap text-ink ${
             passage.lead ? "mt-3" : ""
           }`}
         >
           <PassageText
             passage={passage}
-            activeId={blank.id}
+            selected={selected}
             checked={checked}
-            blankRef={blankRef}
+            activeBlankId={activeBlankId}
+            onActivate={activateBlank}
+            setBlankRef={(id, node) => {
+              if (node) blankRefs.current.set(id, node);
+              else blankRefs.current.delete(id);
+            }}
           />
-        </p>
+        </div>
         {passage.notes.length > 0 ? (
           <ul className="mt-3 space-y-1 border-t border-line pt-3 text-xs leading-relaxed text-muted">
             {passage.notes.map((note) => (
@@ -183,9 +236,235 @@ export function GrammarTextSession({
         <p className="mt-3 text-xs text-muted">{passage.source}</p>
       </article>
 
+      <div className="flex flex-col gap-3">
+        <h2 className="text-xs font-medium tracking-wide text-muted uppercase">
+          Choose an expression for each blank
+        </h2>
+        {passage.blanks.map((blank, blankIndex) => (
+          <QuestionChoices
+            key={blank.id}
+            blank={blank}
+            blankIndex={blankIndex}
+            selectedIndex={selected[blank.id] ?? null}
+            checked={checked}
+            isActive={activeBlankId === blank.id}
+            firstChoiceRef={blankIndex === 0 ? firstChoiceRef : undefined}
+            setQuestionRef={(node) => {
+              if (node) questionRefs.current.set(blank.id, node);
+              else questionRefs.current.delete(blank.id);
+            }}
+            onActivate={() => activateBlank(blank.id)}
+            onChoose={(choiceIndex) => choose(blank.id, choiceIndex)}
+          />
+        ))}
+      </div>
+
+      <div
+        ref={feedbackRef}
+        tabIndex={-1}
+        aria-live="polite"
+        className="scroll-mt-72 outline-none"
+      >
+        {checked ? (
+          <ul className="flex flex-col gap-2">
+            {passage.blanks.map((blank) => {
+              const choiceIndex = selected[blank.id] ?? null;
+              const correct = choiceIndex === blank.answer;
+              return (
+                <li
+                  key={blank.id}
+                  className={`rounded-xl border px-4 py-3 text-sm ${
+                    correct ? "border-ok/30 bg-ok/10" : "border-line bg-surface"
+                  }`}
+                >
+                  <p className={`font-medium ${correct ? "text-ok" : "text-ink"}`}>
+                    <span className="text-muted">{blank.id}. </span>
+                    {correct
+                      ? "Correct."
+                      : `Not quite. The blank is ${blank.choices[blank.answer]}.`}
+                  </p>
+                  <p lang="ja" className="mt-2 leading-relaxed text-ink">
+                    {blank.explanation}
+                  </p>
+                  <p className="mt-1 text-muted">{blank.meaning}</p>
+                </li>
+              );
+            })}
+          </ul>
+        ) : (
+          <p className="text-center text-xs text-muted">
+            {filledCount} of {passage.blanks.length} filled
+          </p>
+        )}
+      </div>
+
+      <button
+        ref={nextButtonRef}
+        type="button"
+        disabled={!checked && !allFilled}
+        onClick={() => {
+          if (!checked) {
+            setResults((prev) => [
+              ...prev,
+              ...passage.blanks.map(
+                (blank) => selected[blank.id] === blank.answer,
+              ),
+            ]);
+            setChecked(true);
+            return;
+          }
+          if (isLast) {
+            setPhase("summary");
+            return;
+          }
+          const next = passages[passageIndex + 1];
+          setPassageIndex((value) => value + 1);
+          setSelected({});
+          setActiveBlankId(next?.blanks[0]?.id ?? null);
+          setChecked(false);
+        }}
+        className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-40"
+      >
+        {checked ? (isLast ? "See results" : "Next passage") : "Check"}
+      </button>
+    </div>
+  );
+}
+
+function PassageText({
+  passage,
+  selected,
+  checked,
+  activeBlankId,
+  onActivate,
+  setBlankRef,
+}: {
+  passage: GrammarTextPassage;
+  selected: Record<number, number>;
+  checked: boolean;
+  activeBlankId: number | null;
+  onActivate: (blankId: number) => void;
+  setBlankRef: (id: number, node: HTMLButtonElement | null) => void;
+}) {
+  return (
+    <>
+      {passage.parts.map((part, partIndex) => {
+        if ("text" in part) {
+          return <span key={`${passage.id}-t-${partIndex}`}>{part.text}</span>;
+        }
+
+        const blank = passage.blanks.find((item) => item.id === part.blank);
+        if (!blank) return null;
+
+        return (
+          <BlankMark
+            key={`${passage.id}-b-${part.blank}`}
+            blank={blank}
+            choiceIndex={selected[blank.id] ?? null}
+            checked={checked}
+            isActive={part.blank === activeBlankId}
+            onActivate={() => onActivate(blank.id)}
+            markRef={(node) => setBlankRef(blank.id, node)}
+          />
+        );
+      })}
+    </>
+  );
+}
+
+function BlankMark({
+  blank,
+  choiceIndex,
+  checked,
+  isActive,
+  onActivate,
+  markRef,
+}: {
+  blank: GrammarTextBlank;
+  choiceIndex: number | null;
+  checked: boolean;
+  isActive: boolean;
+  onActivate: () => void;
+  markRef: (node: HTMLButtonElement | null) => void;
+}) {
+  const filled = choiceIndex !== null;
+  const correct = choiceIndex === blank.answer;
+  const className = checked
+    ? correct
+      ? "border-ok bg-ok/10 text-ok"
+      : "border-accent bg-accent/10 text-accent"
+    : filled || isActive
+      ? "border-accent bg-accent/10 font-medium text-accent"
+      : "border-dashed border-line text-muted";
+
+  return (
+    <button
+      ref={markRef}
+      type="button"
+      lang="ja"
+      aria-current={isActive ? "true" : undefined}
+      aria-label={
+        filled
+          ? `Blank ${blank.id}: ${blank.choices[choiceIndex]}`
+          : `Blank ${blank.id}`
+      }
+      disabled={checked}
+      onClick={onActivate}
+      className={`mx-0.5 inline rounded-md border px-1.5 align-baseline box-decoration-clone focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-100 ${className}`}
+    >
+      {filled ? (
+        <>
+          <span className="mr-1 text-xs opacity-70">{blank.id}</span>
+          {insertedText(blank, choiceIndex)}
+        </>
+      ) : (
+        insertedText(blank, null)
+      )}
+    </button>
+  );
+}
+
+function QuestionChoices({
+  blank,
+  blankIndex,
+  selectedIndex,
+  checked,
+  isActive,
+  firstChoiceRef,
+  setQuestionRef,
+  onActivate,
+  onChoose,
+}: {
+  blank: GrammarTextBlank;
+  blankIndex: number;
+  selectedIndex: number | null;
+  checked: boolean;
+  isActive: boolean;
+  firstChoiceRef?: RefObject<HTMLButtonElement | null>;
+  setQuestionRef: (node: HTMLElement | null) => void;
+  onActivate: () => void;
+  onChoose: (choiceIndex: number) => void;
+}) {
+  return (
+    <section
+      ref={setQuestionRef}
+      aria-current={isActive ? "true" : undefined}
+      className={`rounded-xl border bg-surface px-3 py-3 ${
+        isActive ? "border-accent" : "border-line"
+      }`}
+    >
+      <h3 className="mb-2 text-sm font-medium text-ink">
+        <button
+          type="button"
+          onClick={onActivate}
+          className="rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          Blank {blank.id}
+        </button>
+      </h3>
       <div className="flex flex-col gap-2" role="group" aria-label={`Blank ${blank.id}`}>
         {blank.choices.map((choice, choiceIndex) => {
-          const isSelected = selected === choiceIndex;
+          const isSelected = selectedIndex === choiceIndex;
           const isCorrectChoice = choiceIndex === blank.answer;
           const stateClass = checked
             ? isCorrectChoice
@@ -200,11 +479,13 @@ export function GrammarTextSession({
           return (
             <button
               key={`${blank.id}-${choice}`}
-              ref={choiceIndex === 0 ? firstChoiceRef : undefined}
+              ref={
+                blankIndex === 0 && choiceIndex === 0 ? firstChoiceRef : undefined
+              }
               type="button"
               aria-pressed={isSelected}
               disabled={checked}
-              onClick={() => setSelected(choiceIndex)}
+              onClick={() => onChoose(choiceIndex)}
               className={`flex min-h-12 items-start gap-3 rounded-xl border px-4 py-3 text-left transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-100 ${stateClass}`}
             >
               <span className="w-4 text-sm text-muted">{choiceIndex + 1}.</span>
@@ -221,119 +502,6 @@ export function GrammarTextSession({
           );
         })}
       </div>
-
-      <div aria-live="polite">
-        {checked ? (
-          <div
-            className={`rounded-xl border px-4 py-3 text-sm ${
-              correct ? "border-ok/30 bg-ok/10" : "border-line bg-surface"
-            }`}
-          >
-            <p className={`font-medium ${correct ? "text-ok" : "text-ink"}`}>
-              {correct
-                ? "Correct."
-                : `Not quite. The blank is ${blank.choices[blank.answer]}.`}
-            </p>
-            <p lang="ja" className="mt-2 leading-relaxed text-ink">
-              {blank.explanation}
-            </p>
-            <p className="mt-1 text-muted">{blank.meaning}</p>
-          </div>
-        ) : null}
-      </div>
-
-      <button
-        ref={nextButtonRef}
-        type="button"
-        disabled={!checked && selected === null}
-        onClick={() => {
-          if (!checked) {
-            setResults((prev) => [...prev, selected === blank.answer]);
-            setChecked(true);
-            return;
-          }
-          if (isLast) {
-            setPhase("summary");
-            return;
-          }
-          setIndex((value) => value + 1);
-          setSelected(null);
-          setChecked(false);
-        }}
-        className="inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-40"
-      >
-        {checked ? (isLast ? "See results" : "Next question") : "Check"}
-      </button>
-    </div>
-  );
-}
-
-function PassageText({
-  passage,
-  activeId,
-  checked,
-  blankRef,
-}: {
-  passage: GrammarTextPassage;
-  activeId: number;
-  checked: boolean;
-  blankRef: RefObject<HTMLSpanElement | null>;
-}) {
-  const activeIndex = passage.blanks.findIndex((item) => item.id === activeId);
-
-  return (
-    <>
-      {passage.parts.map((part, partIndex) => {
-        if ("text" in part) {
-          return <span key={`${passage.id}-t-${partIndex}`}>{part.text}</span>;
-        }
-
-        const blank = passage.blanks.find((item) => item.id === part.blank);
-        if (!blank) return null;
-
-        const blankIndex = passage.blanks.findIndex((item) => item.id === part.blank);
-        const isActive = part.blank === activeId;
-        const revealed = blankIndex < activeIndex || (isActive && checked);
-
-        return (
-          <BlankMark
-            key={`${passage.id}-b-${part.blank}`}
-            blank={blank}
-            revealed={revealed}
-            isActive={isActive}
-            markRef={isActive ? blankRef : undefined}
-          />
-        );
-      })}
-    </>
-  );
-}
-
-function BlankMark({
-  blank,
-  revealed,
-  isActive,
-  markRef,
-}: {
-  blank: GrammarTextBlank;
-  revealed: boolean;
-  isActive: boolean;
-  markRef?: RefObject<HTMLSpanElement | null>;
-}) {
-  const className = isActive
-    ? "mx-0.5 rounded bg-accent/10 px-1 font-medium text-accent"
-    : revealed
-      ? "text-ink"
-      : "mx-0.5 rounded border border-line px-1 text-muted";
-
-  return (
-    <span
-      ref={markRef}
-      lang="ja"
-      aria-current={isActive ? "true" : undefined}
-      className={className}
-    >
-      {revealed ? blank.choices[blank.answer] : blank.id}
-    </span>
+    </section>
   );
 }

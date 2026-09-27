@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { filledPassage, getGrammarText, listQuestions } from "./grammar-text";
+import {
+  filledPassage,
+  getGrammarText,
+  insertedText,
+  listQuestions,
+} from "./grammar-text";
 
 const answers = [2, 2, 1, 3, 4, 4, 1, 3, 4, 1, 2, 4, 1, 4, 3];
 
@@ -39,6 +44,14 @@ describe("grammar in text", () => {
       expect(item.blank.explanation.length).toBeGreaterThan(0);
       expect(item.blank.meaning.length).toBeGreaterThan(0);
     });
+  });
+
+  it("inserts a chosen expression and keeps the blank number until then", () => {
+    const blank = questions[0].blank;
+    expect(insertedText(blank, null)).toBe(String(blank.id));
+    expect(insertedText(blank, blank.answer)).toBe(blank.choices[blank.answer]);
+    expect(insertedText(blank, -1)).toBe(String(blank.id));
+    expect(insertedText(blank, blank.choices.length)).toBe(String(blank.id));
   });
 
   it("fills each passage with the keyed expression", () => {
