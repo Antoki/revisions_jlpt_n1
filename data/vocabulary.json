@@ -1228,5 +1228,1385 @@
     "nuance": "",
     "example": "",
     "group": "27"
+  },
+  {
+    "id": 124,
+    "kanji": "勝手",
+    "kana": "かって",
+    "meaning": "as one pleases, without asking",
+    "meaningFr": "à sa guise, sans consulter",
+    "nuance": "Phrase 2 : 勝手に = de son propre chef, en ignorant l'avis des autres. Décider seul du lieu du déménagement impose un choix. Nuance égoïste, pas la liberté positive d'un oiseau (自由に), ni ce qui est propre à un pays (独自の), ni le fait d'y arriver par ses propres forces (独力で).",
+    "example": "夫は引っ越し先を勝手に決めてしまった。",
+    "group": "28"
+  },
+  {
+    "id": 125,
+    "kanji": "絶大",
+    "kana": "ぜつだい",
+    "meaning": "immense (trust, influence)",
+    "meaningFr": "immense, considérable (confiance, influence)",
+    "nuance": "Phrase 3 : 絶大 qualifie une ampleur abstraite extrême, surtout la confiance, le soutien ou l'influence. 絶大な信頼 est l'association juste. Ce n'est pas « absolument » (絶対に), ni un projet grandiose (壮大な計画), ni une masse de données (膨大な量).",
+    "example": "田中さんは社長から絶大な信頼を得ている。",
+    "group": "28"
+  },
+  {
+    "id": 126,
+    "kanji": "心苦しい",
+    "kana": "こころぐるしい",
+    "meaning": "feeling bad about imposing",
+    "meaningFr": "gêné d'imposer quelque chose",
+    "nuance": "Phrase 2 : 心苦しい est le malaise de demander un service qui pèse à l'autre (« je m'en veux de te demander ça »). Le mot porte sur la gêne d'imposer, pas sur des journées pénibles (苦しい・つらい), ni sur quelqu'un de sans-cœur (心無い), ni sur une enfance malheureuse.",
+    "example": "こんなことを君に頼むのも心苦しいんだけど、ちょっと手伝ってくれないかな。",
+    "group": "28"
+  },
+  {
+    "id": 127,
+    "kanji": "安静",
+    "kana": "あんせい",
+    "meaning": "medical rest",
+    "meaningFr": "repos (consigne médicale)",
+    "nuance": "Phrase 1 : 安静にする est une consigne médicale, rester au repos pour guérir. Seul le médecin qui dit de se reposer emploie ce mot. Le calme du jugement est 冷静, un quartier tranquille est 閑静, un trajet agréable est 快適.",
+    "example": "しばらく安静にしていれば元気になるだろうと医者に言われた。",
+    "group": "28"
+  },
+  {
+    "id": 128,
+    "kanji": "雑",
+    "kana": "ざつ",
+    "meaning": "rough, careless",
+    "meaningFr": "négligent, sans soin",
+    "nuance": "Phrase 3 : 雑に扱う = manipuler sans soin, brutalement. Casser un article en le traitant n'importe comment est ce sens. 雑 ne veut pas dire « varié » (様々な記事), ni « compliqué » (複雑な関係), ni « animé » (にぎやか).",
+    "example": "商品を雑に扱って壊してしまったので、店長に弁償させられた。",
+    "group": "28"
+  },
+  {
+    "id": 129,
+    "kanji": "紛らわしい",
+    "kana": "まぎらわしい",
+    "meaning": "misleading, easy to confuse",
+    "meaningFr": "ambigu, prêtant à confusion",
+    "nuance": "Phrase 4 : 紛らわしい décrit ce qu'on peut confondre ou mal comprendre. Une formulation ambiguë risque d'être mal interprétée. Une relation tendue est ぎくしゃく・険悪, une humeur sombre est 憂鬱, des relations pesantes sont 煩わしい.",
+    "example": "紛らわしい言い方は誤解されるかもしれないから、やめたほうがいい。",
+    "group": "28"
+  },
+  {
+    "id": 130,
+    "kanji": "分別",
+    "kana": "ぶんべつ",
+    "meaning": "sorting into categories",
+    "meaningFr": "tri (déchets, catégories)",
+    "nuance": "Phrase 4 : 分別する, c'est trier par catégories. Trier finement les déchets pour les recycler est l'emploi ごみを分別する. Partager la nourriture est 分け合う, rompre est 別れる, des fleurs qui s'éparpillent est 散る.",
+    "example": "日本ではごみを細かく分別し、多くの資源をリサイクルしている。",
+    "group": "28"
+  },
+  {
+    "id": 131,
+    "kanji": "根回し",
+    "kana": "ねまわし",
+    "meaning": "laying the groundwork",
+    "meaningFr": "préparation en coulisses, démarche préalable",
+    "nuance": "Phrase 4 : 根回し est le travail discret d'avance. On sonde chaque service pour que la réunion ne bloque pas. Ce n'est pas une consultation ouverte (相談), ni une discussion officielle (話し合う), ni de la flatterie intéressée (ごます).",
+    "example": "会議でもめないように、あらかじめ各部署に根回ししておく必要がある。",
+    "group": "28"
+  },
+  {
+    "id": 132,
+    "kanji": "発散",
+    "kana": "はっさん",
+    "meaning": "letting out (stress)",
+    "meaningFr": "défoulement, évacuation (stress)",
+    "nuance": "Phrase 1 : 発散する laisse sortir ce qui est accumulé. Le karaoké pour relâcher le stress du quotidien est le tour ストレスを発散する. Disperser un groupe est 解散, arroser les plantes est 水をやる, des pommes qui tombent est 落ちる.",
+    "example": "カラオケは日々のストレスを発散するための最良の方法だ。",
+    "group": "28"
+  },
+  {
+    "id": 133,
+    "kanji": "進出",
+    "kana": "しんしゅつ",
+    "meaning": "advance into (a market)",
+    "meaningFr": "implantation, entrée sur un marché",
+    "nuance": "Phrase 4 : 進出する, c'est entrer sur un nouveau terrain, surtout un marché. Une entreprise qui prévoit l'étranger emploie 海外に進出する. Une recherche qui avance est 進む, une ville qui se développe est 発展, un problème qui surgit est 発生.",
+    "example": "我が社は来年より海外に進出する計画だ。",
+    "group": "28"
+  },
+  {
+    "id": 134,
+    "kanji": "告白",
+    "kana": "こくはく",
+    "meaning": "confession of one's feelings",
+    "meaningFr": "aveu de ses sentiments",
+    "nuance": "Phrase 3 : 告白 révèle des sentiments personnels, souvent amoureux. Dire à quelqu'un ce qu'on ressent vraiment est ce mot. Donner son numéro d'examen est 言う, un médecin qui annonce un diagnostic fait une 告知, un gouvernement qui rend une politique publique fait une 発表.",
+    "example": "彼女に自分の本当の気持ちを告白した。",
+    "group": "28"
+  },
+  {
+    "id": 135,
+    "kanji": "見合わせる",
+    "kana": "みあわせる",
+    "meaning": "suspend temporarily",
+    "meaningFr": "suspendre (provisoirement)",
+    "nuance": "Phrase 1 : 見合わせる suspend temporairement quelque chose de prévu, souvent un service. Arrêter les Shinkansen le matin à cause du typhon est cette suspension. Ne plus aller à l'école ou quitter un travail est やめる, s'absenter est 休む.",
+    "example": "台風の影響を考慮し、明日の午前中は新幹線の運転を見合わせるとのことだ。",
+    "group": "28"
+  },
+  {
+    "id": 136,
+    "kanji": "取り戻す",
+    "kana": "とりもどす",
+    "meaning": "regain what was lost",
+    "meaningFr": "retrouver, regagner (ce qu'on a perdu)",
+    "nuance": "Phrase 2 : 取り戻す récupère ce qu'on avait et qu'on a perdu. Regagner une confiance perdue est l'emploi type. Commander un article en rupture est 取り寄せる, remettre un objet à sa place est 戻す, rembourser un billet est 払い戻す.",
+    "example": "一度なくした信頼を取り戻すのは、とても大変だ。",
+    "group": "28"
+  },
+  {
+    "id": 137,
+    "kanji": "和む",
+    "kana": "なごむ",
+    "meaning": "(one's heart) softens",
+    "meaningFr": "s'apaiser (le cœur)",
+    "nuance": "Phrase 4 : 和む est intransitif, le cœur ou l'atmosphère se détend. Devant un beau paysage, 心が和む. La mer qui redevient calme est 穏やか, se calmer pour discuter est 落ち着く, un monde en paix est 平和.",
+    "example": "美しい景色を見ていると、心が和む。",
+    "group": "28"
+  },
+  {
+    "id": 138,
+    "kanji": "かみ合う",
+    "kana": "かみあう",
+    "meaning": "mesh, fit together",
+    "meaningFr": "s'engrener, concorder (propos)",
+    "nuance": "Phrase 1 : 話がかみ合う, les propos s'engrènent comme des roues. Avec quelqu'un d'une autre génération, les échanges ne s'emboîtent souvent pas. Mâcher est かむ, être assorti est 釣り合う, rivaliser est 張り合う.",
+    "example": "世代が違うからか、彼女とは話がかみ合わないと思うことが多い。",
+    "group": "28"
+  },
+  {
+    "id": 139,
+    "kanji": "ねたむ",
+    "kana": "ねたむ",
+    "meaning": "envy someone's success",
+    "meaningFr": "envier, jalouser (une réussite)",
+    "nuance": "Phrase 4 : ねたむ est la jalousie devant la réussite d'un autre. On peut se réjouir d'une promotion et, en même temps, sentir l'envie. Un ressentiment pour un tort subi est うらむ, réclamer avec insistance est ねだる, tenir bon est ねばる.",
+    "example": "同僚の昇進を喜ぶ一方で、ねたむ気持ちもないとは言えない。",
+    "group": "28"
+  },
+  {
+    "id": 140,
+    "kanji": "うぬぼれる",
+    "kana": "うぬぼれる",
+    "meaning": "be conceited",
+    "meaningFr": "s'enorgueillir, se surestimer",
+    "nuance": "Phrase 2 : うぬぼれる, c'est se surestimer, croire à tort qu'on a du talent. Vanité négative tournée vers soi. Être fier de sa fille est 鼻が高い, ne jamais abandonner est 粘り強い, être fier d'un défi tenté est 誇りに思う.",
+    "example": "若いころ、自分は仕事の才能があるとうぬぼれていた。",
+    "group": "28"
+  },
+  {
+    "id": 141,
+    "kanji": "きっぱり",
+    "kana": "きっぱり",
+    "meaning": "flatly, decisively",
+    "meaningFr": "nettement, sans hésiter (refus)",
+    "nuance": "Phrase 2 : きっぱり porte sur un acte tranché, sans reste d'hésitation, surtout un refus. Se faire repousser net est きっぱり断る. Ne rien comprendre est さっぱり, un fait clair est はっきり, une arrivée à l'heure pile est きっちり.",
+    "example": "彼女を食事に誘ったが、きっぱり断られてしまった。",
+    "group": "28"
+  },
+  {
+    "id": 142,
+    "kanji": "ことごとく",
+    "kana": "ことごとく",
+    "meaning": "every single one",
+    "meaningFr": "un par un, sans exception",
+    "nuance": "Phrase 4 : ことごとく dit que le même sort frappe chaque élément d'une série. Toutes les propositions, une par une, ont été rejetées. Un cadeau pour chaque client est もれなく, « tout est à 100 yens » est すべて, « le plus grand » est もっとも.",
+    "example": "私達からの提案はことごとく却下された。",
+    "group": "28"
+  },
+  {
+    "id": 143,
+    "kanji": "一向に",
+    "kana": "いっこうに",
+    "meaning": "(not) in the least",
+    "meaningFr": "pas du tout (aucun changement)",
+    "nuance": "Phrase 2 : 一向に〜ない marque l'absence totale du changement attendu. Le médicament est pris, la fièvre ne baisse pas du tout. Il faut une forme négative. « Surtout ne sois pas en retard » est 絶対に, « pas une seule fois » est 一度も, une prévision est きっと.",
+    "example": "薬を飲んだが、一向に熱が下がらない。",
+    "group": "28"
+  },
+  {
+    "id": 144,
+    "kanji": "目先",
+    "kana": "めさき",
+    "meaning": "the immediate short term",
+    "meaningFr": "l'immédiat, le court terme",
+    "nuance": "Phrase 4 : 目先のこと est ce qui est juste devant soi, le court terme, opposé à 将来. Le conseil est de ne pas s'arrêter à l'immédiat. « En ce moment » est 目下, supérieur/inférieur est 目上・目下, « sur le point de » est 目前.",
+    "example": "目先のことばかりでなく、将来のこともきちんと考えたほうがいい。",
+    "group": "28"
+  },
+  {
+    "id": 145,
+    "kanji": "心当たり",
+    "kana": "こころあたり",
+    "meaning": "a clue that it might be yours",
+    "meaningFr": "une idée, une piste (ça me dit quelque chose)",
+    "nuance": "Phrase 2 : 心当たりがある, une piste précise revient, l'objet pourrait vous concerner. L'annonce d'une clé trouvée s'adresse à celui qui pense que c'est la sienne. Une personne chaleureuse est 心の温かい, ne pas savoir si une histoire est vraie est 見当がつかない, reconnaître un visage est 見覚えがある.",
+    "example": "かぎの落し物が届いています。心当たりがある方は事務所までお越しください。",
+    "group": "28"
+  },
+  {
+    "id": 146,
+    "kanji": "風習",
+    "kana": "ふうしゅう",
+    "meaning": "local custom",
+    "meaningFr": "coutume (d'une région)",
+    "nuance": "Phrase 3 : 風習 est une coutume partagée par une région, souvent liée à un rite. Porter du blanc aux funérailles dans cette région est une coutume locale. Une habitude personnelle est 習慣, une règle de la maison est 決まり, le code de la route est 規則.",
+    "example": "この地域ではお葬式の時、白い服を着るという風習がある。",
+    "group": "28"
+  },
+  {
+    "id": 147,
+    "kanji": "表向き",
+    "kana": "おもてむき",
+    "meaning": "on the surface, officially",
+    "meaningFr": "en apparence, officiellement",
+    "nuance": "Phrase 3 : 表向き est la version affichée, opposée à la réalité. 表向きは…だが、実際は… : la raison annoncée (valeurs) cache la vraie cause (l'argent). L'apparence d'un fruit est 見た目, le discours de façade est 建前, un jour de cérémonie est 晴れの日.",
+    "example": "表向きは価値観の不一致だが、実際は金銭問題が離婚の原因だったらしい。",
+    "group": "28"
+  },
+  {
+    "id": 148,
+    "kanji": "間柄",
+    "kana": "あいだがら",
+    "meaning": "relationship between two people",
+    "meaningFr": "lien, relation entre deux personnes",
+    "nuance": "Phrase 2 : 間柄 nomme le lien entre deux personnes. « Assez proches pour tout se dire » décrit cette relation : 親しい間柄. On ne dit pas 間柄がいい. Le caractère est 人柄, un lien abstrait (marché et consommateurs) est 関係, « bien s'entendre » est 仲がいい.",
+    "example": "彼女とは何でも話せる親しい間柄だ。",
+    "group": "28"
+  },
+  {
+    "id": 149,
+    "kanji": "ならまだしも",
+    "kana": "ならまだしも",
+    "meaning": "if it were only…, that would be one thing",
+    "meaningFr": "à la rigueur si ce n'était que…",
+    "nuance": "Phrase 1, forme juste. Xならまだしも = Xならまだ許せるが. Une ou deux fois, passe encore ; le répéter autant de fois, non. La suite reproche le degré excessif. たりとも est « pas même un seul » et exige une négation. なりとも est « ne serait-ce qu'un minimum ». といえども dit « même X n'y échappe pas », soit l'inverse : même une ou deux fois serait impardonnable.",
+    "example": "一度や二度ならまだしも、こう何度もミスを繰り返すなら、減給も考えさせてもらうよ。",
+    "group": "29"
+  },
+  {
+    "id": 150,
+    "kanji": "たりとも",
+    "kana": "たりとも",
+    "meaning": "not even a single (with a negative)",
+    "meaningFr": "pas même un seul",
+    "nuance": "Phrase 1, leurre. たりとも suit une quantité minimale d'une unité (一〜) et se construit avec une négation : pas même cette unité. 一度や二度たりとも ne forme pas le contraste « une ou deux fois, passe encore ». La forme juste est ならまだしも.",
+    "example": "試験までは一秒たりとも無駄にはできない。",
+    "group": "29"
+  },
+  {
+    "id": 151,
+    "kanji": "なりとも",
+    "kana": "なりとも",
+    "meaning": "at least, even a little",
+    "meaningFr": "ne serait-ce que, au moins un peu",
+    "nuance": "Phrase 1, leurre. なりとも demande un minimum : ne serait-ce qu'un peu, au moins ça. 多少なりとも役に立ちたい. La phrase ne demande pas « au moins une ou deux fois », elle oppose un petit nombre encore acceptable à une répétition. La forme juste est ならまだしも.",
+    "example": "一目なりとも、お目にかかりたいのですが。",
+    "group": "29"
+  },
+  {
+    "id": 152,
+    "kanji": "といえども",
+    "kana": "といえども",
+    "meaning": "even if, even though (no exception)",
+    "meaningFr": "même si, quand bien même",
+    "nuance": "Phrase 1, leurre. Nといえども : même X, que l'on croirait à part, reste soumis à la règle. 一度や二度といえども許せない voudrait dire qu'une ou deux fois non plus ne se pardonnent pas. Ici, une ou deux fois se pardonnent encore. La forme juste est ならまだしも.",
+    "example": "専門家といえども、間違うことはある。",
+    "group": "29"
+  },
+  {
+    "id": 153,
+    "kanji": "あっての",
+    "kana": "あっての",
+    "meaning": "B exists only because of A",
+    "meaningFr": "B n'existe que grâce à A",
+    "nuance": "Phrase 2, forme juste. AあってのB : B n'existe que parce qu'il y a A. Sans A, pas de B. 失敗あっての成功 = c'est parce qu'il y a l'échec qu'il y a la réussite. こそすれ oppose deux verbes (on fait bien X, mais pas Y). はさておき met un sujet de côté. ゆえに est un simple « donc », pas ce lien d'existence.",
+    "example": "たった一度の失敗であきらめちゃだめだよ。失敗あっての成功だって言うでしょ？",
+    "group": "29"
+  },
+  {
+    "id": 154,
+    "kanji": "こそすれ",
+    "kana": "こそすれ",
+    "meaning": "do A, but certainly not B",
+    "meaningFr": "certes A, mais pas B",
+    "nuance": "Phrase 2, leurre. ます-stem＋こそすれ oppose deux actions : on fait bien la première, mais pas la seconde, souvent négative. 迷惑こそすれ、感謝されない. 失敗こそすれ成功 ne dit pas « la réussite n'existe que grâce à l'échec ». La forme juste est あっての.",
+    "example": "苦労こそすれ、この仕事を選んだことに後悔はない。",
+    "group": "29"
+  },
+  {
+    "id": 155,
+    "kanji": "はさておき",
+    "kana": "はさておき",
+    "meaning": "setting X aside",
+    "meaningFr": "laissons X de côté",
+    "nuance": "Phrase 2, leurre. はさておき écarte un sujet pour passer à un autre. 冗談はさておき. 失敗はさておき成功 mettrait l'échec de côté, au lieu de dire que la réussite en dépend. La forme juste est あっての.",
+    "example": "冗談はさておき、本題に入ろう。",
+    "group": "29"
+  },
+  {
+    "id": 156,
+    "kanji": "ゆえに",
+    "kana": "ゆえに",
+    "meaning": "therefore, because of",
+    "meaningFr": "c'est pourquoi, en raison de",
+    "nuance": "Phrase 2, leurre. ゆえに marque une cause, souvent écrite et soutenue : Nのゆえに, ou ゆえに en tête de phrase pour « par conséquent ». 失敗ゆえに成功 resterait une cause ordinaire. Le tour figé de la phrase est 失敗あっての成功 : sans l'échec, la réussite n'existe pas. La forme juste est あっての.",
+    "example": "貧困のゆえに、学校に通うことができなかった。",
+    "group": "29"
+  },
+  {
+    "id": 157,
+    "kanji": "ばかりに",
+    "kana": "ばかりに",
+    "meaning": "just because (and a bad result followed)",
+    "meaningFr": "rien que pour avoir… (mauvaise conséquence)",
+    "nuance": "Phrase 3, leurre. ばかりに : uniquement parce qu'on a fait X, un mauvais résultat a suivi. 信じたばかりに騙された. La phrase ne donne pas la cause d'un malheur. Elle sous-entend « il existe sûrement un meilleur moyen, et pourtant ». La forme juste est だろうに.",
+    "example": "うそをついたばかりに、みんなの信用を失った。",
+    "group": "29"
+  },
+  {
+    "id": 158,
+    "kanji": "ばかりか",
+    "kana": "ばかりか",
+    "meaning": "not only… but also",
+    "meaningFr": "non seulement… mais encore",
+    "nuance": "Phrase 3, leurre. ばかりか ajoute un second élément, souvent plus fort : non seulement A, mais aussi B. Il faut deux contenus. Ici, une seule idée suit : l'incompréhension devant une méthode lente. La forme juste est だろうに.",
+    "example": "彼は日本語ばかりか、英語もフランス語も話せる。",
+    "group": "29"
+  },
+  {
+    "id": 159,
+    "kanji": "だろうに",
+    "kana": "だろうに",
+    "meaning": "surely… and yet (reproach, sympathy)",
+    "meaningFr": "il y a sûrement…, et pourtant",
+    "nuance": "Phrase 3, forme juste. だろうに = きっと〜のに. Le locuteur est sûr qu'un meilleur moyen existe, et la suite porte le reproche, la sympathie ou la surprise. ばかりに donne une mauvaise conséquence, ばかりか ajoute un second fait, だろうと concède (« quoi que ce soit ») sans ce « et pourtant ».",
+    "example": "もっと効率のいい方法があるだろうに、なぜそんな手間のかかるやり方で無駄な時間を使うのか、理解できない。",
+    "group": "29"
+  },
+  {
+    "id": 160,
+    "kanji": "だろうと",
+    "kana": "だろうと",
+    "meaning": "no matter what one supposes",
+    "meaningFr": "quoi que ce soit, même si",
+    "nuance": "Phrase 3, leurre. だろうと concède : quelle que soit la supposition, la conclusion ne change pas. 誰だろうと受け入れる. Il n'y a pas ici de concession ouverte, mais un reproche : un meilleur moyen existe sûrement, et pourtant on s'entête. La forme juste est だろうに.",
+    "example": "どんな相手だろうと、最後までやり遂げる。",
+    "group": "29"
+  },
+  {
+    "id": 161,
+    "kanji": "を限りに",
+    "kana": "をかぎりに",
+    "meaning": "as of X, for the last time",
+    "meaningFr": "à compter de X, pour la dernière fois",
+    "nuance": "Phrase 4, leurre. を限りに fixe une date comme dernier moment : à partir de là, c'est fini. 今日を限りに店を閉める. L'incident n'est pas une fin, c'est le déclencheur d'une réforme. La forme juste est を機に.",
+    "example": "本日を限りに、この店は閉店します。",
+    "group": "29"
+  },
+  {
+    "id": 162,
+    "kanji": "をこめて",
+    "kana": "をこめて",
+    "meaning": "with (a feeling) put into it",
+    "meaningFr": "en y mettant (un sentiment)",
+    "nuance": "Phrase 4, leurre. をこめて met un sentiment dans un geste : 心をこめて, 愛をこめて. On ne « met » pas un incident dans une réforme. L'incident en est l'occasion. La forme juste est を機に.",
+    "example": "感謝の気持ちをこめて、手紙を書いた。",
+    "group": "29"
+  },
+  {
+    "id": 163,
+    "kanji": "を抜きに",
+    "kana": "をぬきに",
+    "meaning": "leaving X out, without X",
+    "meaningFr": "sans X, en faisant abstraction de X",
+    "nuance": "Phrase 4, leurre. を抜きに : sans compter X, en l'écartant. 朝食を抜きに出勤する. La réforme ne se fait pas « sans l'incident », elle se fait à cause de lui. La forme juste est を機に.",
+    "example": "彼の協力を抜きに、この計画は成功しない。",
+    "group": "29"
+  },
+  {
+    "id": 164,
+    "kanji": "を機に",
+    "kana": "をきに",
+    "meaning": "taking X as the trigger",
+    "meaningFr": "à la faveur de, en prenant X pour occasion",
+    "nuance": "Phrase 4, forme juste. を機に = をきっかけに. L'incident est le tournant qui lance la révision du système. を限りに marque un dernier jour, をこめて met un sentiment dans un acte, を抜きに veut dire « sans ».",
+    "example": "その事件を機に、制度の見直しが行われることになった。",
+    "group": "29"
+  },
+  {
+    "id": 165,
+    "kanji": "に言わせれば",
+    "kana": "にいわせれば",
+    "meaning": "if you ask (a person)",
+    "meaningFr": "si on demande l'avis de (quelqu'un)",
+    "nuance": "Phrase 5, leurre. に言わせれば donne la parole à une personne : à mon avis, selon lui. Le sujet ici est 進路, un fait, pas quelqu'un dont on sollicite l'avis. La forme juste est いかんでは.",
+    "example": "私に言わせれば、その判断は早すぎる。",
+    "group": "29"
+  },
+  {
+    "id": 166,
+    "kanji": "ならでは",
+    "kana": "ならでは",
+    "meaning": "unique to, only possible from",
+    "meaningFr": "propre à, que seul X peut offrir",
+    "nuance": "Phrase 5, leurre. Nならでは : ce qui n'appartient qu'à N, en bien. 京都ならではの景色. La trajectoire du typhon n'a rien d'unique à vanter : elle peut forcer à annuler, selon son évolution. La forme juste est いかんでは.",
+    "example": "この店ならではの味は、他では食べられない。",
+    "group": "29"
+  },
+  {
+    "id": 167,
+    "kanji": "に先駆けて",
+    "kana": "にさきがけて",
+    "meaning": "ahead of others, taking the lead",
+    "meaningFr": "en devançant les autres",
+    "nuance": "Phrase 5, leurre. に先駆けて : faire quelque chose avant les autres, prendre les devants. 他社に先駆けて発売する. Ce n'est pas « avant l'événement » (に先立って, phrase 7) et ce n'est pas « selon la trajectoire ». La forme juste est いかんでは.",
+    "example": "わが社は他社に先駆けて、新製品を発売した。",
+    "group": "29"
+  },
+  {
+    "id": 168,
+    "kanji": "いかんでは",
+    "kana": "いかんでは",
+    "meaning": "depending on how X turns out",
+    "meaningFr": "selon le cas, selon comment X évolue",
+    "nuance": "Phrase 5, forme juste. Nいかんでは = Nによっては、N次第では. Selon la trajectoire du typhon, l'annulation entre en ligne de compte. Le résultat n'est pas fixé. に言わせれば parle d'une personne, ならでは est une spécialité, に先駆けて est « avant les autres ».",
+    "example": "台風の進路いかんでは、旅行の中止も考えなければならない。",
+    "group": "29"
+  },
+  {
+    "id": 169,
+    "kanji": "復帰せずとも",
+    "kana": "ふっきせずとも",
+    "meaning": "even without returning (to work)",
+    "meaningFr": "même sans reprendre le travail",
+    "nuance": "Phrase 6, leurre. ずとも = même sans faire X. 言わずとも分かる. 復帰せずとも dirait que la rééducation a lieu même si l'on ne reprend pas le poste. La phrase donne le but de la rééducation : reprendre le plus tôt possible. La forme juste est 復帰すべく.",
+    "example": "完全には復帰せずとも、週に二日なら働けるだろう。",
+    "group": "29"
+  },
+  {
+    "id": 170,
+    "kanji": "復帰がてら",
+    "kana": "ふっきがてら",
+    "meaning": "while returning, and also…",
+    "meaningFr": "à l'occasion du retour, en profiter pour",
+    "nuance": "Phrase 6, leurre. がてら : tout en faisant une action, en profiter pour une autre. 散歩がてら郵便局に寄る. 復帰がてら voudrait dire « en reprenant le travail, faire aussi la rééducation », alors que la rééducation sert à pouvoir reprendre. La forme juste est 復帰すべく.",
+    "example": "東京への復帰がてら、昔の同僚に会ってきた。",
+    "group": "29"
+  },
+  {
+    "id": 171,
+    "kanji": "復帰してこそ",
+    "kana": "ふっきしてこそ",
+    "meaning": "only once one has returned",
+    "meaningFr": "ce n'est qu'en reprenant que",
+    "nuance": "Phrase 6, leurre. してこそ : ce n'est qu'en faisant X que la valeur apparaît. 自分でやってこそ意味がある. La phrase ne dit pas que quelque chose n'a de sens qu'après la reprise. Elle dit pourquoi on fait la rééducation. La forme juste est 復帰すべく.",
+    "example": "職場に復帰してこそ、これまでの苦労が報われる。",
+    "group": "29"
+  },
+  {
+    "id": 172,
+    "kanji": "復帰すべく",
+    "kana": "ふっきすべく",
+    "meaning": "in order to return (to work)",
+    "meaningFr": "afin de reprendre le travail",
+    "nuance": "Phrase 6, forme juste. する→すべく, 辞書形＋べく = afin de. 職場に復帰すべく = 復帰するために. La rééducation a ce but. せずとも est « même sans », がてら est « en profiter au passage », してこそ est « ce n'est qu'en faisant que ».",
+    "example": "けがで休職中だが、少しでも早く職場に復帰すべく、リハビリに励んでいる。",
+    "group": "29"
+  },
+  {
+    "id": 173,
+    "kanji": "に先立って",
+    "kana": "にさきだって",
+    "meaning": "prior to an event, in preparation",
+    "meaningFr": "avant (un événement), en préparation",
+    "nuance": "Phrase 7, forme juste. に先立って = その前に. On l'emploie avant un événement, un plan, un calendrier, pour une préparation ou une démarche nécessaire. Les interviews sortent avant l'opéra. にもまして est « encore plus que », に即して est « conformément à », にしたがって est « à mesure que / selon ». À ne pas confondre avec に先駆けて, « en devançant les autres ».",
+    "example": "25日から行われるオペラ公演に先立って、今週からキャストのインタビューがネット上に公開される。",
+    "group": "29"
+  },
+  {
+    "id": 174,
+    "kanji": "にもまして",
+    "kana": "にもまして",
+    "meaning": "even more than",
+    "meaningFr": "encore plus que",
+    "nuance": "Phrase 7, leurre. にもまして compare un degré : encore plus que telle période ou telle chose. 去年にもまして忙しい. L'opéra n'est pas un point de comparaison, c'est l'événement avant lequel on publie les interviews. La forme juste est に先立って.",
+    "example": "今年の夏は去年にもまして暑い。",
+    "group": "29"
+  },
+  {
+    "id": 175,
+    "kanji": "に即して",
+    "kana": "にそくして",
+    "meaning": "in line with, based closely on",
+    "meaningFr": "conformément à, en collant à",
+    "nuance": "Phrase 7, leurre. に即して : en se collant à un fait, une réalité, une règle. 現実に即して考える. Publier des interviews n'est pas « se conformer à l'opéra », c'est le préparer en amont. La forme juste est に先立って.",
+    "example": "事実に即して、経緯を説明してください。",
+    "group": "29"
+  },
+  {
+    "id": 176,
+    "kanji": "にしたがって",
+    "kana": "にしたがって",
+    "meaning": "as; in accordance with",
+    "meaningFr": "à mesure que ; conformément à",
+    "nuance": "Phrase 7, leurre. にしたがって a deux sens : suivre une consigne (指示にしたがって), ou évoluer en parallèle (上るにしたがって気温が下がる). Ni l'un ni l'autre ne dit « avant le spectacle, on prépare ». La forme juste est に先立って.",
+    "example": "山を上るにしたがって、気温が下がった。",
+    "group": "29"
+  },
+  {
+    "id": 177,
+    "kanji": "を境に",
+    "kana": "をさかいに",
+    "meaning": "with X as the dividing line",
+    "meaningFr": "à partir de X, la situation bascule",
+    "nuance": "Phrase 8, leurre. を境に marque un avant et un après : à partir de ce moment, les choses changent. 事故を境に人が変わった. Le sondage n'est pas la date du basculement, c'est la base sur laquelle on décide de développer le produit. La forme juste est を踏まえて.",
+    "example": "退職を境に、生活のリズムが変わった。",
+    "group": "29"
+  },
+  {
+    "id": 178,
+    "kanji": "を踏まえて",
+    "kana": "をふまえて",
+    "meaning": "based on, taking into account",
+    "meaningFr": "en se fondant sur, en tenant compte de",
+    "nuance": "Phrase 8, forme juste. を踏まえて = をもとにして、参考にして. On part des résultats du sondage pour lancer le produit. を境に est un avant/après, の折に est « à l'occasion de », を兼ねて est « en faisant aussi office de ».",
+    "example": "アンケートの結果を踏まえて、新商品の開発に乗り出した。",
+    "group": "29"
+  },
+  {
+    "id": 179,
+    "kanji": "の折に",
+    "kana": "のおりに",
+    "meaning": "on the occasion of",
+    "meaningFr": "à l'occasion de",
+    "nuance": "Phrase 8, leurre. の折に, tour soutenu : au moment où, à l'occasion de. ご来日の折に. Le développement ne se lance pas « à l'occasion des résultats », il s'appuie sur eux. La forme juste est を踏まえて.",
+    "example": "上京の折に、ぜひうちにお立ち寄りください。",
+    "group": "29"
+  },
+  {
+    "id": 180,
+    "kanji": "を兼ねて",
+    "kana": "をかねて",
+    "meaning": "while also serving as",
+    "meaningFr": "en faisant aussi office de",
+    "nuance": "Phrase 8, leurre. を兼ねて réunit deux fonctions dans un seul acte. 運動を兼ねて歩く. Les résultats du sondage ne « servent pas en plus » d'autre chose : ils sont le fondement de la décision. La forme juste est を踏まえて.",
+    "example": "健康のための運動を兼ねて、駅まで歩いている。",
+    "group": "29"
+  },
+  {
+    "id": 181,
+    "kanji": "ところ",
+    "kana": "ところ",
+    "meaning": "at a moment when (お忙しいところ)",
+    "meaningFr": "au moment où (formule pour déranger)",
+    "nuance": "Phrase 9, forme juste. お忙しいところ = お忙しいときに. Formule fixe pour s'excuser d'interrompre quelqu'un occupé. ことに commente une émotion (驚いたことに), ものの concède (bien que), ほど mesure un degré.",
+    "example": "お忙しいところ、失礼いたします。",
+    "group": "29"
+  },
+  {
+    "id": 182,
+    "kanji": "ことに",
+    "kana": "ことに",
+    "meaning": "the fact that… (emotional comment)",
+    "meaningFr": "le fait est que… (commentaire affectif)",
+    "nuance": "Phrase 9, leurre. 形容詞＋ことに commente l'émotion du locuteur devant un fait. 残念なことに、彼は欠席した. お忙しいことに ne veut pas dire « au moment où vous êtes occupé ». La formule de l'interruption est お忙しいところ.",
+    "example": "驚いたことに、彼は何もかも知っていた。",
+    "group": "29"
+  },
+  {
+    "id": 183,
+    "kanji": "ものの",
+    "kana": "ものの",
+    "meaning": "although",
+    "meaningFr": "bien que",
+    "nuance": "Phrase 9, leurre. ものの concède : bien que X, pourtant Y. 読んだものの、意味が分からなかった. お忙しいものの失礼いたします formerait une concession bancale. On s'excuse parce que l'autre est occupé en ce moment, d'où ところ.",
+    "example": "招待は受けたものの、当日は行けそうにない。",
+    "group": "29"
+  },
+  {
+    "id": 184,
+    "kanji": "ほど",
+    "kana": "ほど",
+    "meaning": "to the extent that",
+    "meaningFr": "au point de, autant que",
+    "nuance": "Phrase 9, leurre. ほど mesure un degré. 息ができないほど忙しい. お忙しいほど ne forme pas l'excuse d'interrompre quelqu'un. La formule est お忙しいところ.",
+    "example": "泣きたくなるほどうれしかった。",
+    "group": "29"
+  },
+  {
+    "id": 185,
+    "kanji": "ままに",
+    "kana": "ままに",
+    "meaning": "as, just as one does",
+    "meaningFr": "selon, tel que",
+    "nuance": "Phrase 10, leurre. ままに : conformément à, au fil de. 思うままに, 見るままに. Ce n'est pas le regret de ce qui aurait pu être. La phrase reproche d'avoir bâclé alors qu'un bon rapport était à portée. La forme juste est ものを.",
+    "example": "足の向くままに、知らない町を歩いた。",
+    "group": "29"
+  },
+  {
+    "id": 186,
+    "kanji": "ものを",
+    "kana": "ものを",
+    "meaning": "and yet (regret or reproach)",
+    "meaningFr": "alors que… (regret, reproche)",
+    "nuance": "Phrase 10, forme juste. ものを = のに, avec le mécontentement ou le regret du locuteur. 書けたものを = 書けたのに. On aurait pu écrire un bon rapport, et pourtant on a bâclé la fin. ままに est « selon », 手前 est « vu la position où l'on s'est mis », が最後 est « une fois que, plus moyen d'arrêter ».",
+    "example": "もう少しがんばればいいレポートが書けたものを、どうして最後に手を抜いてしまったんですか。",
+    "group": "29"
+  },
+  {
+    "id": 187,
+    "kanji": "手前",
+    "kana": "てまえ",
+    "meaning": "given the position one is in",
+    "meaningFr": "vu que (on s'est engagé, devant les autres)",
+    "nuance": "Phrase 10, leurre. 手前 : étant donné ce qu'on a dit ou la face qu'on doit garder. やると言った手前、断れない. Le rapport n'est pas une contrainte de face. C'est un regret : il aurait pu être bon. La forme juste est ものを.",
+    "example": "自分からやると言った手前、今さら断れない。",
+    "group": "29"
+  },
+  {
+    "id": 188,
+    "kanji": "が最後",
+    "kana": "がさいご",
+    "meaning": "once you do X, there's no stopping",
+    "meaningFr": "une fois que…, c'est fichu",
+    "nuance": "Phrase 10, leurre. Vた＋が最後 : une fois l'acte fait, on ne peut plus s'arrêter, souvent vers le pire. 言い出したが最後. La phrase ne décrit pas un engrenage. Elle regrette une occasion manquée. La forme juste est ものを.",
+    "example": "彼はギャンブルに手を出したが最後、やめられなくなった。",
+    "group": "29"
+  },
+  {
+    "id": 189,
+    "kanji": "かぎり",
+    "kana": "かぎり",
+    "meaning": "as far as; as long as; to the limit",
+    "meaningFr": "dans la mesure où ; autant que possible",
+    "nuance": "Phrase 11, leurre. かぎり borne : autant que, tant que, à la limite. 見渡すかぎり, 力のかぎり. いいことかぎりだ ne veut pas dire « rien que des bonnes choses ». Ce sens est ずくめ.",
+    "example": "私の知るかぎり、そんな事実はない。",
+    "group": "29"
+  },
+  {
+    "id": 190,
+    "kanji": "まみれ",
+    "kana": "まみれ",
+    "meaning": "covered in (something unpleasant)",
+    "meaningFr": "couvert de, maculé de",
+    "nuance": "Phrase 11, leurre. まみれ : trempé, couvert d'une matière sale ou désagréable. 泥まみれ, 血まみれ, ほこりまみれ. On ne dit pas いいことまみれ. Une série entièrement faite de bonnes choses est ずくめ.",
+    "example": "子供たちは泥まみれになって遊んでいた。",
+    "group": "29"
+  },
+  {
+    "id": 191,
+    "kanji": "ずくめ",
+    "kana": "ずくめ",
+    "meaning": "nothing but, entirely made of",
+    "meaningFr": "rien que, tout en",
+    "nuance": "Phrase 11, forme juste. ずくめ : entièrement composé de, rien que. いいことずくめ = いいことばかり. Notes qui montent, bon petit boulot : que du positif depuis le début de l'année. かぎり borne, まみれ couvre d'une saleté, ぐるみ englobe tout un groupe (家族ぐるみ).",
+    "example": "成績も上がったし、いいアルバイトも見つかったし、今年に入ってからいいことずくめだ。",
+    "group": "29"
+  },
+  {
+    "id": 192,
+    "kanji": "ぐるみ",
+    "kana": "ぐるみ",
+    "meaning": "together with the whole group",
+    "meaningFr": "tout le groupe inclus",
+    "nuance": "Phrase 11, leurre. ぐるみ englobe l'ensemble d'un groupe ou d'un lieu. 家族ぐるみ, 町ぐるみ. いいことぐるみ ne veut pas dire « que des bonnes nouvelles ». La forme juste est ずくめ.",
+    "example": "隣の家とは家族ぐるみの付き合いだ。",
+    "group": "29"
+  },
+  {
+    "id": 193,
+    "kanji": "言うことはなく",
+    "kana": "いうことはなく",
+    "meaning": "it is not the case that one says",
+    "meaningFr": "ce n'est pas que l'on dise",
+    "nuance": "Phrase 12, leurre. 言うことはなく n'est pas le tour « inutile de le dire ». ことはなく nierait le fait de dire, comme dans 反対するということはなく. Ici, l'importance du projet est évidente pour tout le monde. La forme juste est 言うまでもなく.",
+    "example": "撤回すると言うことはなく、表現を改めたいだけだ。",
+    "group": "29"
+  },
+  {
+    "id": 194,
+    "kanji": "言うまでもなく",
+    "kana": "いうまでもなく",
+    "meaning": "it goes without saying",
+    "meaningFr": "il va sans dire, bien entendu",
+    "nuance": "Phrase 12, forme juste. 言うまでもなく = もちろん. 辞書形＋までもない : inutile d'aller jusqu'à faire cette action. Inutile de dire que le projet compte, tout le monde le sait. 言わないまでも est « même sans aller jusqu'à dire ». 言わんばかりに décrit un air, « comme pour dire ».",
+    "example": "このプロジェクトが我が社にとって重要な意味をもつことは、言うまでもなくみなさんご存じのことと思います。",
+    "group": "29"
+  },
+  {
+    "id": 195,
+    "kanji": "言わないまでも",
+    "kana": "いわないまでも",
+    "meaning": "even if one doesn't go so far as to say",
+    "meaningFr": "même sans aller jusqu'à dire",
+    "nuance": "Phrase 12, leurre. ない形＋までも : même sans aller jusqu'à ce degré. 完璧とは言わないまでも、かなりいい. La phrase ne tempère pas un jugement. Elle dit que la chose est évidente. La forme juste est 言うまでもなく.",
+    "example": "完璧とは言わないまでも、かなりの出来だ。",
+    "group": "29"
+  },
+  {
+    "id": 196,
+    "kanji": "言わんばかりに",
+    "kana": "いわんばかりに",
+    "meaning": "as if to say",
+    "meaningFr": "comme pour dire",
+    "nuance": "Phrase 12, leurre. 言わんばかりに décrit l'air de quelqu'un, comme s'il allait dire telle phrase. 黙れと言わんばかりににらむ. On ne décrit pas ici une attitude. On dit qu'un fait est connu de tous. La forme juste est 言うまでもなく. À distinguer de んばかりに (phrase 22), l'air d'être sur le point de faire un geste.",
+    "example": "黙れと言わんばかりに、彼は私をにらみつけた。",
+    "group": "29"
+  },
+  {
+    "id": 197,
+    "kanji": "なり〜なり",
+    "kana": "なり〜なり",
+    "meaning": "either one or the other",
+    "meaningFr": "ou bien l'un, ou bien l'autre",
+    "nuance": "Phrase 13, leurre. VるなりVないなり : fais l'un ou l'autre, choisis. 行くなり帰るなりしなさい. La phrase ne demande pas de choisir. Elle dit que, dans les deux cas, mieux vaut avoir étudié. La forme juste est 受けるにせよ受けないにせよ.",
+    "example": "受けるなり受けないなり、自分ではっきり決めなさい。",
+    "group": "29"
+  },
+  {
+    "id": 198,
+    "kanji": "にせよ〜にせよ",
+    "kana": "にせよ〜にせよ",
+    "meaning": "whether one does or not",
+    "meaningFr": "que ce soit l'un ou l'autre",
+    "nuance": "Phrase 13, forme juste. にせよ〜にせよ : dans un cas comme dans l'autre. 受けても受けなくても. La conclusion est la même : mieux vaut étudier. なり〜なり impose un choix, のだの〜のだの énumère des plaintes, のやら〜のやら dit qu'on ne sait pas lequel des deux.",
+    "example": "今度の日本語能力試験を受けるにせよ受けないにせよ、勉強はしておいたほうがいい。",
+    "group": "29"
+  },
+  {
+    "id": 199,
+    "kanji": "のだの〜のだの",
+    "kana": "のだの〜のだの",
+    "meaning": "going on about this and that",
+    "meaningFr": "à se plaindre de ceci et de cela",
+    "nuance": "Phrase 13, leurre. のだの〜のだの cite des griefs, sur un ton de plainte. 高いのだのまずいのだの. La phrase donne un conseil, elle ne rapporte pas des jérémiades. La forme juste est 受けるにせよ受けないにせよ.",
+    "example": "試験を受けるのだの受けないのだのと、文句ばかり言っている。",
+    "group": "29"
+  },
+  {
+    "id": 200,
+    "kanji": "のやら〜のやら",
+    "kana": "のやら〜のやら",
+    "meaning": "unable to tell which of the two",
+    "meaningFr": "sans savoir lequel des deux",
+    "nuance": "Phrase 13, leurre. のやら〜のやら : le locuteur ne sait pas lequel des deux. 来るのやら来ないのやら. Ici, on ne s'interroge pas. On dit que l'étude est utile dans les deux cas. La forme juste est 受けるにせよ受けないにせよ.",
+    "example": "受けるのやら受けないのやら、本人も決めかねている。",
+    "group": "29"
+  },
+  {
+    "id": 201,
+    "kanji": "を前提として",
+    "kana": "をぜんていとして",
+    "meaning": "on the premise that",
+    "meaningFr": "en partant du principe que",
+    "nuance": "Phrase 14, forme juste. を前提として : en posant X d'avance comme condition. Les études à l'université se mènent en partant du principe qu'on lira une masse de livres. のかたわら est une activité menée en parallèle, も兼ねて cumule deux fonctions, をものともせずに brave un obstacle.",
+    "example": "大学の勉強は大量の本を読むことを前提として行われるものだ。",
+    "group": "29"
+  },
+  {
+    "id": 202,
+    "kanji": "のかたわら",
+    "kana": "のかたわら",
+    "meaning": "while also (a side activity)",
+    "meaningFr": "tout en (activité principale), par ailleurs",
+    "nuance": "Phrase 14, leurre. かたわら : tout en ayant une activité principale, en mener une autre à côté. 働くかたわら小説を書く. Lire beaucoup n'est pas un à-côté des études, c'en est la condition. La forme juste est を前提として.",
+    "example": "教授の仕事のかたわら、一般向けの本も書いている。",
+    "group": "29"
+  },
+  {
+    "id": 203,
+    "kanji": "も兼ねて",
+    "kana": "もかねて",
+    "meaning": "also serving as",
+    "meaningFr": "aussi dans le but de, en cumulant",
+    "nuance": "Phrase 14, leurre. も兼ねて : un même acte remplit aussi un autre rôle. 挨拶も兼ねて訪ねる. Lire une masse de livres n'est pas une fonction ajoutée. C'est le présupposé des études. La forme juste est を前提として. Proche de を兼ねて (phrase 8), sans le も.",
+    "example": "ご挨拶も兼ねて、先生のお宅を訪ねた。",
+    "group": "29"
+  },
+  {
+    "id": 204,
+    "kanji": "をものともせずに",
+    "kana": "をものともせずに",
+    "meaning": "undaunted by, in spite of",
+    "meaningFr": "sans se laisser arrêter par",
+    "nuance": "Phrase 14, leurre. をものともせずに : braver un obstacle, ne pas s'en laisser impressionner. 嵐をものともせずに出航する. La lecture n'est pas un obstacle qu'on défie. C'est la base prévue des études. La forme juste est を前提として.",
+    "example": "周囲の反対をものともせずに、計画を進めた。",
+    "group": "29"
+  },
+  {
+    "id": 205,
+    "kanji": "ずにはおかない",
+    "kana": "ずにはおかない",
+    "meaning": "cannot but (it inevitably happens)",
+    "meaningFr": "ne peut que (l'effet se produit forcément)",
+    "nuance": "Phrase 15, forme juste. ずにはおかない : l'émotion se produit forcément. Le sujet est souvent une chose, ici la voix. 人々を感動させずにはおかなかった = elle les a forcément émus. ずにはいられない a le même fond, mais le sujet est la personne qui ne peut pas retenir l'émotion : 人々は感動せずにはいられなかった. 余儀なくされた force à une action subie. てたまらなかった est le sentiment du locuteur lui-même.",
+    "example": "彼女の天使のような歌声は、人々を感動させずにはおかなかった。",
+    "group": "29"
+  },
+  {
+    "id": 206,
+    "kanji": "ずにはいられない",
+    "kana": "ずにはいられない",
+    "meaning": "can't help but",
+    "meaningFr": "ne pas pouvoir s'empêcher de",
+    "nuance": "Phrase 15, leurre. ずにはいられない : la personne ne peut pas retenir son émotion. Le sujet est humain. 人々は感動せずにはいられなかった serait juste. Ici le sujet est 歌声 et l'objet est 人々を, donc il faut le causatif させずにはおかなかった.",
+    "example": "その歌声を聞いて、人々は感動せずにはいられなかった。",
+    "group": "29"
+  },
+  {
+    "id": 207,
+    "kanji": "余儀なくされる",
+    "kana": "よぎなくされる",
+    "meaning": "to be forced into",
+    "meaningFr": "être contraint à",
+    "nuance": "Phrase 15, leurre. 余儀なくされる : être acculé à un acte qu'on ne choisit pas. 中止を余儀なくされた. Le sujet est celui qui subit. 歌声は人々を感動を余儀なくされた empile deux を et traite l'émotion comme une contrainte. La forme juste est 感動させずにはおかなかった.",
+    "example": "そのニュースを聞いて、彼は感動を余儀なくされた、とは言わない。",
+    "group": "29"
+  },
+  {
+    "id": 208,
+    "kanji": "てたまらない",
+    "kana": "てたまらない",
+    "meaning": "unbearably",
+    "meaningFr": "à ne plus pouvoir se contenir",
+    "nuance": "Phrase 15, leurre. てたまらない : sentiment si fort qu'on ne le contient pas. Le sujet est celui qui ressent, souvent le locuteur. うれしくてたまらない. 歌声は人々を感動してたまらなかった ne se construit pas : la voix ne « ressent » pas, et 人々を ne trouve pas sa place. La forme juste est 感動させずにはおかなかった.",
+    "example": "その歌を聞いて、感動してたまらなかった。",
+    "group": "29"
+  },
+  {
+    "id": 209,
+    "kanji": "たら〜たで",
+    "kana": "たら〜たで",
+    "meaning": "if it happens, then so be it",
+    "meaningFr": "si ça arrive, eh bien soit",
+    "nuance": "Phrase 16, forme juste. たら〜たで : même si le cas qu'on préfère éviter arrive, on l'accepte et on a une suite. Mieux vaut ne pas échouer, mais si ça arrive, il suffira de réessayer. なりに est « à sa manière ». と思いきや renverse une attente. もさることながら ajoute un second point important.",
+    "example": "失敗したら失敗したで、もう一度チャレンジするまでのことだ。",
+    "group": "29"
+  },
+  {
+    "id": 210,
+    "kanji": "なりに",
+    "kana": "なりに",
+    "meaning": "in one's own way",
+    "meaningFr": "à sa manière",
+    "nuance": "Phrase 16, leurre. なりに : à la mesure de, à sa manière. 子供なりに頑張る. 失敗するなりに voudrait dire « échouer à sa façon », pas « si ça échoue, on réessaie ». La forme juste est 失敗したら失敗したで.",
+    "example": "失敗するなら失敗するなりに、そこから学べばいい。",
+    "group": "29"
+  },
+  {
+    "id": 211,
+    "kanji": "と思いきや",
+    "kana": "とおもいきや",
+    "meaning": "just when one thought",
+    "meaningFr": "alors qu'on croyait que",
+    "nuance": "Phrase 16, leurre. と思いきや : au moment où l'on croyait X, c'est le contraire qui arrive. 失敗したと思いきや、それが成功のもとだった. La phrase n'a pas de retournement. Elle accepte l'échec et prévoit de réessayer. La forme juste est 失敗したら失敗したで.",
+    "example": "失敗したと思いきや、それが大成功のもとだった。",
+    "group": "29"
+  },
+  {
+    "id": 212,
+    "kanji": "もさることながら",
+    "kana": "もさることながら",
+    "meaning": "not only that, but even more",
+    "meaningFr": "certes cela, et encore davantage",
+    "nuance": "Phrase 16, leurre. もさることながら : X compte, et Y compte encore. Il faut un second point. 味もさることながら、雰囲気がいい. La suite n'ajoute pas un autre problème. Elle dit quoi faire si l'on échoue. La forme juste est 失敗したら失敗したで.",
+    "example": "失敗するのもさることながら、その後の対応が問題だ。",
+    "group": "29"
+  },
+  {
+    "id": 213,
+    "kanji": "しようにも",
+    "kana": "しようにも",
+    "meaning": "even if one tries to",
+    "meaningFr": "même en voulant le faire",
+    "nuance": "Phrase 17, leurre. 意向形＋にも : même en voulant, on ne peut pas. 電話しようにも番号が分からない. リストラしようにも得なくなる ne forme pas ざるを得ない. Le blanc complète 〜得なくなる. La forme juste est せざるを.",
+    "example": "電話しようにも、番号が分からない。",
+    "group": "29"
+  },
+  {
+    "id": 214,
+    "kanji": "しては",
+    "kana": "しては",
+    "meaning": "if one does; whenever one does",
+    "meaningFr": "si l'on fait ; chaque fois que",
+    "nuance": "Phrase 17, leurre. ては conditionne ou répète : si on le fait, ou chaque fois qu'on le fait. 同じミスをしては信用されない. リストラしては得なくなる ne donne pas « on n'aura plus le choix ». La forme juste est せざるを, devant 得なくなる.",
+    "example": "同じ失敗をしては、信用を失う。",
+    "group": "29"
+  },
+  {
+    "id": 215,
+    "kanji": "せずに",
+    "kana": "せずに",
+    "meaning": "without doing",
+    "meaningFr": "sans faire",
+    "nuance": "Phrase 17, leurre. ずに : sans faire. 何も言わずに帰った. リストラせずに得なくなる ne veut rien dire ici. La phrase dit qu'on en viendra à ne plus pouvoir éviter les licenciements. La forme juste est せざるを.",
+    "example": "内容を確認せずに提出してしまった。",
+    "group": "29"
+  },
+  {
+    "id": 216,
+    "kanji": "せざるを",
+    "kana": "せざるを",
+    "meaning": "no choice but to (せざるを得ない)",
+    "meaningFr": "ne pas avoir d'autre choix que de",
+    "nuance": "Phrase 17, forme juste. Le blanc est suivi de 得なくなる. せざるを得ない = しなければならない, avec l'idée qu'on ne le veut pas mais qu'on n'a pas le choix. リストラせざるを得なくなる : on en sera réduit à licencier. しようにも est « même en voulant », しては est une condition, せずに est « sans faire ».",
+    "example": "このまま経営が悪化すれば、経費節減のために、リストラせざるを得なくなるだろう。",
+    "group": "29"
+  },
+  {
+    "id": 222,
+    "kanji": "ともなく",
+    "kana": "ともなく",
+    "meaning": "without any particular aim",
+    "meaningFr": "sans but précis",
+    "nuance": "Phrase 19, forme juste. 辞書形＋ともなく : sans but particulier, presque sans s'en rendre compte. ともなしに est très proche. 誰に言うともなく : ce n'est à personne en particulier, et pourtant il dit « beau temps ». 話そう est un volitif, 行った un passé, 見て une forme en て.",
+    "example": "誰に言うともなく、「いい天気だなあ」と言った。",
+    "group": "29"
+  },
+  {
+    "id": 254,
+    "kanji": "はおろか",
+    "kana": "はおろか",
+    "meaning": "let alone",
+    "meaningFr": "sans même parler de",
+    "nuance": "Phrase 27, forme juste. Après はおろか, la suite est d'un degré plus fort, ici en pire. L'étranger, c'est déjà beaucoup ; ne jamais être sorti de son département de naissance, c'est encore en deçà. 国内を何度も旅行した et 海外出張がある sont positifs. あまり行かない est trop faible pour ce cran au-dessus.",
+    "example": "私は海外旅行はおろか、生まれた県から出たこともない。",
+    "group": "29"
+  },
+  {
+    "id": 260,
+    "kanji": "を皮切りに",
+    "kana": "をかわきりに",
+    "meaning": "starting with, then one after another",
+    "meaningFr": "à commencer par, puis de suite",
+    "nuance": "Phrase 28, forme juste. 東京を皮切りに = 東京から始まって. La suite doit dire que ça s'enchaîne. Quinze lieux dans le pays, c'est cette suite. Finir à Tokyo ferme, aller voir Osaka change de sujet, le succès des billets évalue sans enchaîner.",
+    "example": "ミュージカルの公演は、東京を皮切りに全国15か所で行われました。",
+    "group": "29"
+  },
+  {
+    "id": 261,
+    "kanji": "かねない",
+    "kana": "かねない",
+    "meaning": "might well (often something unwelcome)",
+    "meaningFr": "pourrait bien (souvent un risque)",
+    "nuance": "Phrase 29, leurre. かねない : il se pourrait que ça arrive, souvent quelque chose qu'on redoute. C'est une possibilité affirmative. なくして exige une suite négative. La suite juste est 成功はあり得ない.",
+    "example": "条件がそろえば成功しかねない、という言い方は普通しない。",
+    "group": "29"
+  },
+  {
+    "id": 262,
+    "kanji": "あり得ない",
+    "kana": "ありえない",
+    "meaning": "impossible",
+    "meaningFr": "impossible",
+    "nuance": "Phrase 29, forme juste. なくして = がなかったら, et la suite est négative. Sans effort, la réussite ne peut pas exister. しかねない est une possibilité, にすぎない rabaisse (« ce n'est que »), せざるを得ない est une obligation (« on n'a pas le choix »), pas une négation.",
+    "example": "努力なくして成功はあり得ない。",
+    "group": "29"
+  },
+  {
+    "id": 263,
+    "kanji": "にすぎない",
+    "kana": "にすぎない",
+    "meaning": "nothing more than",
+    "meaningFr": "rien de plus que",
+    "nuance": "Phrase 29, leurre. にすぎない minimise : ce n'est rien d'autre que. 学生にすぎない. なくして ne veut pas une minimisation. Il veut une négation franche : sans effort, pas de réussite. La forme juste est 成功はあり得ない.",
+    "example": "今回の結果は失敗するにすぎない、と片づける話ではない。",
+    "group": "29"
+  },
+  {
+    "id": 264,
+    "kanji": "ざるを得ない",
+    "kana": "ざるをえない",
+    "meaning": "have no choice but to",
+    "meaningFr": "ne pas avoir d'autre choix que de",
+    "nuance": "Phrase 29, leurre. せざるを得ない est une obligation : on ne veut pas, mais on doit. C'est affirmatif (« on en est réduit à échouer »), pas la négation que なくして réclame. La suite juste est 成功はあり得ない. Le tour せざるを得ない est, lui, la forme juste de la phrase 17.",
+    "example": "準備が足りなければ、失敗せざるを得ない。",
+    "group": "29"
+  },
+  {
+    "id": 268,
+    "kanji": "とばかりに",
+    "kana": "とばかりに",
+    "meaning": "as if to say",
+    "meaningFr": "comme pour dire",
+    "nuance": "Phrase 30, forme juste. とばかりに décrit l'air d'autrui : comme s'il disait « je ne peux plus faire un pas ». L'enfant qui se laisse tomber assis rend ce sens visible. Les trois autres options sont des actes ou un sentiment du locuteur (私は, 妻に言った). Ce n'est pas んばかりに (phrase 22), qui peint un geste sur le point d'arriver.",
+    "example": "もう一歩も歩けないとばかりに、子どもはその場に座り込んだ。",
+    "group": "29"
+  },
+  {
+    "id": 269,
+    "kanji": "惹きつける",
+    "kana": "ひきつける",
+    "meaning": "to attract, to draw someone in",
+    "meaningFr": "attirer, captiver",
+    "nuance": "Texte 1. Ce qui tire une personne vers un métier : le goût, le salaire, l'horaire. Ces facteurs d'attirance s'appellent 価値.",
+    "example": "このようなその人を惹きつける要因を価値という。",
+    "group": "30"
+  },
+  {
+    "id": 270,
+    "kanji": "値する",
+    "kana": "あたいする",
+    "meaning": "to be worth",
+    "meaningFr": "valoir, mériter",
+    "nuance": "Texte 1. 取り組むに値する : l'acte mérite qu'on s'y mette. Ce n'est pas un prix (値), c'est la valeur d'y consacrer un effort.",
+    "example": "われわれには、取り組むに値する行為だからこそやるという傾向がある。",
+    "group": "30"
+  },
+  {
+    "id": 271,
+    "kanji": "定時",
+    "kana": "ていじ",
+    "meaning": "a fixed time, the scheduled hour",
+    "meaningFr": "heure fixe, horaire prévu",
+    "nuance": "Texte 1, note du livre : 一定の時刻. Finir à l'heure dite, souvent la fin de journée au bureau. Ce n'est pas « régulièrement » au sens de 定期的.",
+    "example": "きちんと定時に終わるという条件が魅力だという人もいる。",
+    "group": "30"
+  },
+  {
+    "id": 272,
+    "kanji": "一切",
+    "kana": "いっさい",
+    "meaning": "entirely; (with a negative) not at all",
+    "meaningFr": "tout à fait ; (négation) pas du tout",
+    "nuance": "Texte 1. Devant un négatif : aucune valeur, rien du tout. Si l'on ne sent aucune valeur, la motivation ne naît pas.",
+    "example": "価値を一切感じていなければ、モチベーションは生じない。",
+    "group": "30"
+  },
+  {
+    "id": 273,
+    "kanji": "端から",
+    "kana": "はなから",
+    "meaning": "from the outset, without even trying",
+    "meaningFr": "d'emblée, sans même essayer",
+    "nuance": "Texte 1. On abandonne avant d'avoir commencé. Ce n'est pas le bord d'une table (端). Ici, le rêve de sportif est écarté dès le départ.",
+    "example": "「自分にはなれるはずがない」と端からあきらめている。",
+    "group": "30"
+  },
+  {
+    "id": 274,
+    "kanji": "知覚",
+    "kana": "ちかく",
+    "meaning": "perception",
+    "meaningFr": "perception",
+    "nuance": "Texte 1. La saisie de ce qui semble possible. 期待 y est définie comme une perception subjective des chances de réussir, pas un simple souhait.",
+    "example": "このような実現可能性に関わる知覚や認識を期待という。",
+    "group": "30"
+  },
+  {
+    "id": 275,
+    "kanji": "見通し",
+    "kana": "みとおし",
+    "meaning": "prospect, outlook",
+    "meaningFr": "perspective, chance que ça marche",
+    "nuance": "Texte 1. L'idée que ça va aboutir. On se motive parce qu'on voit une issue, pas parce que le but est seulement désirable.",
+    "example": "うまくいくという見通しが持てるからこそ、やる気になる。",
+    "group": "30"
+  },
+  {
+    "id": 276,
+    "kanji": "見込み",
+    "kana": "みこみ",
+    "meaning": "likelihood, chance of success",
+    "meaningFr": "chance, probabilité de réussir",
+    "nuance": "Texte 1. Le texte glose 期待 par « chance de succès perçue subjectivement ». Proche de 見通し, plus tourné vers l'issue attendue.",
+    "example": "主観的に知覚された成功の見込みが期待なのである。",
+    "group": "30"
+  },
+  {
+    "id": 277,
+    "kanji": "主観的",
+    "kana": "しゅかんてき",
+    "meaning": "subjective",
+    "meaningFr": "subjectif",
+    "nuance": "Texte 1. Ce que la personne croit elle-même, pas une mesure objective. L'attente est cette croyance personnelle d'y arriver.",
+    "example": "期待とは、主観的に知覚された成功の見込みである。",
+    "group": "30"
+  },
+  {
+    "id": 278,
+    "kanji": "平たくいう",
+    "kana": "ひらたくいう",
+    "meaning": "to put it plainly",
+    "meaningFr": "pour le dire simplement",
+    "nuance": "Texte 1, note du livre : わかりやすく言う. Le mot savant 期待 se résume alors en 自信.",
+    "example": "平たくいうなら「自信」を意味する。",
+    "group": "30"
+  },
+  {
+    "id": 279,
+    "kanji": "なおさら",
+    "kana": "なおさら",
+    "meaning": "all the more",
+    "meaningFr": "d'autant plus, à plus forte raison",
+    "nuance": "Texte 2. Attendre énerve déjà. Si le train vient de partir, c'est pire. Le mot renforce ce qui précède.",
+    "example": "電車が行ったばかりだったりすると、なおさらイライラする。",
+    "group": "30"
+  },
+  {
+    "id": 280,
+    "kanji": "拘わらず",
+    "kana": "かかわらず",
+    "meaning": "in spite of",
+    "meaningFr": "malgré, indépendamment de",
+    "nuance": "Texte 2. にも拘わらず = にもかかわらず. On écrit aussi 関. Malgré les minutes qui restent, l'agacement commence à retomber.",
+    "example": "あと数分待つにも拘わらず、イライラが少し解消に向かう。",
+    "group": "30"
+  },
+  {
+    "id": 281,
+    "kanji": "解消",
+    "kana": "かいしょう",
+    "meaning": "clearing away, relief",
+    "meaningFr": "dissipation, soulagement",
+    "nuance": "Texte 2. L'irritation se défait. Le panneau qui annonce le train a un « effet de dissipation de l'énervement ».",
+    "example": "表示が出ると、イライラが少し解消に向かう。",
+    "group": "30"
+  },
+  {
+    "id": 282,
+    "kanji": "気を揉む",
+    "kana": "きをもむ",
+    "meaning": "to fret, to worry oneself",
+    "meaningFr": "se ronger, s'inquiéter",
+    "nuance": "Texte 2. L'inquiétude qui tourne dans le corps, ici jusqu'au mal d'estomac. Sans l'affichage, il se serait rongé jusqu'à l'arrivée.",
+    "example": "来る直前までものすごく気を揉み、胃が痛くなってしまっていたはずだ。",
+    "group": "30"
+  },
+  {
+    "id": 283,
+    "kanji": "匹敵",
+    "kana": "ひってき",
+    "meaning": "to be equal to, to rival",
+    "meaningFr": "égaler, être à la hauteur de",
+    "nuance": "Texte 2. に匹敵する : valoir autant que. L'affichage vaut, selon lui, une rame de plus ou un trajet plus confortable.",
+    "example": "電車の本数を増やすことに匹敵するサービスだった。",
+    "group": "30"
+  },
+  {
+    "id": 284,
+    "kanji": "すべり込む",
+    "kana": "すべりこむ",
+    "meaning": "to slide in",
+    "meaningFr": "glisser jusqu'à entrer",
+    "nuance": "Texte 2. Le train entre en gare en glissant, comme annoncé. Le texte l'écrit en hiragana : すべりこんできた.",
+    "example": "電車は予告通りホームにすべりこんできた。",
+    "group": "30"
+  },
+  {
+    "id": 285,
+    "kanji": "引きずる",
+    "kana": "ひきずる",
+    "meaning": "to drag along, to keep dwelling on",
+    "meaningFr": "traîner, ressasser",
+    "nuance": "Texte 2. Une pensée qu'on n'arrive pas à lâcher. Une fois dans le train, il continue de tourner autour de l'effet du panneau.",
+    "example": "気づいたばかりのことを相変わらず引きずって考えていた。",
+    "group": "30"
+  },
+  {
+    "id": 286,
+    "kanji": "享受",
+    "kana": "きょうじゅ",
+    "meaning": "to enjoy, to receive a benefit",
+    "meaningFr": "jouir de, recevoir (un bienfait)",
+    "nuance": "Texte 2. Recevoir l'effet, pas seulement « aimer ». Quelques minutes plus tôt, il a reçu le soulagement de l'affichage.",
+    "example": "自分が数分前に享受した表示による作用を考えた。",
+    "group": "30"
+  },
+  {
+    "id": 287,
+    "kanji": "作用",
+    "kana": "さよう",
+    "meaning": "effect, action on something",
+    "meaningFr": "action, effet",
+    "nuance": "Texte 2. L'effet que quelque chose produit. Le sujet est inanimé, donc le texte le met au passif : 作用が及ぼされている.",
+    "example": "表示による作用が、二駅先の人たちのイライラにも及んでいる。",
+    "group": "30"
+  },
+  {
+    "id": 288,
+    "kanji": "妙",
+    "kana": "みょう",
+    "meaning": "odd, strangely",
+    "meaningFr": "étrange, curieusement",
+    "nuance": "Texte 2. 妙に : d'une façon bizarre, difficile à expliquer. L'idée est évidente, et pourtant curieusement amusante.",
+    "example": "当たり前ではあるが、何か妙に面白かった。",
+    "group": "30"
+  },
+  {
+    "id": 289,
+    "kanji": "薄べったい",
+    "kana": "うすべったい",
+    "meaning": "thin and flat",
+    "meaningFr": "mince et plat",
+    "nuance": "Texte 3. Familier, un peu méprisant, pour un objet plat. Le père ne porte que sa sacoche de documents, plate. 薄い est neutre.",
+    "example": "父は薄べったい書類カバンを持ち、先に歩いてゆく。",
+    "group": "30"
+  },
+  {
+    "id": 290,
+    "kanji": "お供につく",
+    "kana": "おともにつく",
+    "meaning": "to attend on someone, to follow behind",
+    "meaningFr": "accompagner en suivant derrière",
+    "nuance": "Texte 3, note du livre : ご主人の後ろについていく. La fille porte le sac derrière le père. Ce n'est pas une sortie entre égaux.",
+    "example": "うしろからカバンを持ってお供につくのである。",
+    "group": "30"
+  },
+  {
+    "id": 291,
+    "kanji": "さほど",
+    "kana": "さほど",
+    "meaning": "not so much (with a negative)",
+    "meaningFr": "pas tellement, pas à ce point",
+    "nuance": "Texte 3. Toujours avec une négation. Avant-guerre, ce cortège ne leur semblait pas si étrange.",
+    "example": "戦前の私のうちでは、さほど不思議とも思わなかった。",
+    "group": "30"
+  },
+  {
+    "id": 292,
+    "kanji": "威張る",
+    "kana": "いばる",
+    "meaning": "to act high and mighty",
+    "meaningFr": "faire le fier, prendre de grands airs",
+    "nuance": "Texte 3. L'air important. La mère dit qu'il fanfaronne, alors qu'il déteste rester seul.",
+    "example": "お父さんは、威張っているくせにさびしがりだ。",
+    "group": "30"
+  },
+  {
+    "id": 293,
+    "kanji": "さびしがり",
+    "kana": "さびしがり",
+    "meaning": "someone who gets lonely easily",
+    "meaningFr": "qui ne supporte pas la solitude",
+    "nuance": "Texte 3. Le caractère de celui qui se sent vite seul. La forme plus longue est さびしがりや. Ici, malgré les grands airs.",
+    "example": "威張っているくせに、さびしがりだからそばにいてほしい。",
+    "group": "30"
+  },
+  {
+    "id": 294,
+    "kanji": "目もくれず",
+    "kana": "めもくれず",
+    "meaning": "without so much as a glance",
+    "meaningFr": "sans même un regard",
+    "nuance": "Texte 3. 目もくれない : ne pas accorder un regard. Assis, le père n'a pas un œil pour sa fille sur le quai.",
+    "example": "フォームに立っている私には目もくれず、雑誌をひらいた。",
+    "group": "30"
+  },
+  {
+    "id": 295,
+    "kanji": "読みふける",
+    "kana": "よみふける",
+    "meaning": "to be absorbed in reading",
+    "meaningFr": "être plongé dans sa lecture",
+    "nuance": "Texte 3. Lire au point d'oublier le reste. Ici c'est une attitude : il fait semblant d'être absorbé.",
+    "example": "経済雑誌をひらいて読みふけるフリをする。",
+    "group": "30"
+  },
+  {
+    "id": 296,
+    "kanji": "追っぱらう",
+    "kana": "おっぱらう",
+    "meaning": "to shoo away",
+    "meaningFr": "chasser, faire partir",
+    "nuance": "Texte 3. Familier pour 追い払う. Le geste du père, sans un mot, est celui qu'on a pour chasser une poule.",
+    "example": "声は立てないが、ニワトリを追っぱらうようなしぐさをした。",
+    "group": "30"
+  },
+  {
+    "id": 297,
+    "kanji": "ご機嫌ななめ",
+    "kana": "ごきげんななめ",
+    "meaning": "in a bad mood",
+    "meaningFr": "de mauvaise humeur",
+    "nuance": "Texte 3, note du livre : 機嫌が悪い. ななめ est « de travers ». De retour, le père est particulièrement maussade.",
+    "example": "出張から帰った父は、ことのほかご機嫌ななめだった。",
+    "group": "30"
+  },
+  {
+    "id": 298,
+    "kanji": "薄情",
+    "kana": "はくじょう",
+    "meaning": "heartless, cold",
+    "meaningFr": "sans cœur, froid",
+    "nuance": "Texte 3. Manquer d'attachement. Le père traite sa fille de sans-cœur parce qu'elle est partie dès le signal.",
+    "example": "邦子は女の子のくせに薄情な奴だ。",
+    "group": "30"
+  },
+  {
+    "id": 299,
+    "kanji": "やがる",
+    "kana": "やがる",
+    "meaning": "to have the nerve to (contempt)",
+    "meaningFr": "avoir le toupet de (mépris)",
+    "nuance": "Texte 3. Auxiliaire de mépris sur l'acte d'autrui. 帰りやがった : elle a eu le toupet de rentrer. On ne le dit pas de soi.",
+    "example": "俺が帰ってもいいといったら、さっさと帰りやがった。",
+    "group": "30"
+  },
+  {
+    "id": 300,
+    "kanji": "追い立てる",
+    "kana": "おいたてる",
+    "meaning": "to drive someone off, to hurry someone away",
+    "meaningFr": "pousser dehors, presser quelqu'un de partir",
+    "nuance": "Texte 3. Faire partir en pressant, comme on pousse un animal. Elle trouve que ce geste contredit l'envie de la garder.",
+    "example": "ニワトリみたいに人を追い立てることはないじゃないか。",
+    "group": "30"
+  },
+  {
+    "id": 301,
+    "kanji": "口返答",
+    "kana": "くちへんとう",
+    "meaning": "talking back",
+    "meaningFr": "réplique, répondant",
+    "nuance": "Texte 3. Répondre à un supérieur. À l'époque, une réplique au père est impensable, alors elle se tait.",
+    "example": "口返答など思いもよらないので黙っていた。",
+    "group": "30"
+  },
+  {
+    "id": 302,
+    "kanji": "思いもよらない",
+    "kana": "おもいもよらない",
+    "meaning": "unthinkable, beyond imagining",
+    "meaningFr": "inimaginable, à quoi on ne songerait pas",
+    "nuance": "Texte 3. L'idée ne vient même pas. Répondre au père n'est pas une option qu'elle envisage.",
+    "example": "口返答など思いもよらないので、黙っていた。",
+    "group": "30"
+  },
+  {
+    "id": 303,
+    "kanji": "言いつかる",
+    "kana": "いいつかる",
+    "meaning": "to be ordered to do something",
+    "meaningFr": "recevoir l'ordre de",
+    "nuance": "Texte 3. Passif de 言いつける. On lui ordonne d'accompagner le père. Ce n'est pas une demande qu'elle aurait faite.",
+    "example": "出張のお供を言いつかったときは、柱のかげに立っていた。",
+    "group": "30"
+  },
+  {
+    "id": 304,
+    "kanji": "そっぽを向く",
+    "kana": "そっぽをむく",
+    "meaning": "to look away, to turn one's face aside",
+    "meaningFr": "détourner le regard, faire la tête",
+    "nuance": "Texte 3. Tourner la face, souvent par dépit. Elle se met hors de la fenêtre et regarde ailleurs.",
+    "example": "フォームの柱のかげで、そっぽを向いて立っていた。",
+    "group": "30"
+  },
+  {
+    "id": 305,
+    "kanji": "確執",
+    "kana": "かくしつ",
+    "meaning": "bad blood, a deep friction",
+    "meaningFr": "mésentente tenace, froid entre deux personnes",
+    "nuance": "Texte 3. Un différend installé, pas une petite dispute. Vu de dehors, ce père et cette fille sembleraient en froid.",
+    "example": "この父と娘は何か確執があると思われるに違いない。",
+    "group": "30"
   }
 ]

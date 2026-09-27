@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "before": "",
+    "after": "と思わせるほどのすばらしい作品だった。",
+    "pieces": ["どうしても", "どんなに", "手に入れたい", "高かろうが"],
+    "order": [1, 3, 0, 2],
+    "star": 2,
+    "explanation": "どんなに高かろうが＝どんなに高くても",
+    "meaning": "It was such a wonderful work that you wanted it no matter how expensive it was."
+  },
+  {
+    "id": 2,
+    "before": "本日は",
+    "after": "です。",
+    "pieces": ["こちらに伺った", "かたがた", "次第", "お礼"],
+    "order": [3, 1, 0, 2],
+    "star": 2,
+    "explanation": "お礼かたがた＝お礼も目的として、お礼も兼ねて。伺った次第だ＝伺ったわけだ。",
+    "meaning": "I came today in part to thank you."
+  },
+  {
+    "id": 3,
+    "before": "犯人は",
+    "after": "大金を要求した。",
+    "pieces": ["と", "に", "ひきかえ", "人質"],
+    "order": [3, 0, 2, 1],
+    "star": 2,
+    "explanation": "人質と引き換えに＝人質と交換するために",
+    "meaning": "The culprit demanded a large sum in exchange for the hostage."
+  },
+  {
+    "id": 4,
+    "before": "空が暗くなる",
+    "after": "が降り出した。",
+    "pieces": ["の", "大粒", "や", "雨"],
+    "order": [2, 1, 0, 3],
+    "star": 2,
+    "explanation": "空が暗くなるや＝空が暗くなるとすぐに",
+    "meaning": "The moment the sky darkened, heavy rain began to fall."
+  },
+  {
+    "id": 5,
+    "before": "この島は",
+    "after": "、動植物が独自の進化を遂げた。",
+    "pieces": ["ゆえに", "が", "環境である", "隔離された"],
+    "order": [3, 2, 1, 0],
+    "star": 1,
+    "explanation": "環境であるがゆえに＝環境だから",
+    "meaning": "Because the island is an isolated environment, its plants and animals evolved on their own."
+  },
+  {
+    "id": 6,
+    "before": "パスポートをいったい",
+    "after": "、まったく思い出せない。",
+    "pieces": ["やら", "に", "しまったの", "どこ"],
+    "order": [3, 1, 2, 0],
+    "star": 1,
+    "explanation": "どこにしまったのやら＝どこにしまったのか",
+    "meaning": "I cannot remember at all where I put my passport."
+  },
+  {
+    "id": 7,
+    "before": "少子高齢化",
+    "after": "ことではない。",
+    "pieces": ["に悩んでいる", "に限った", "のは", "我が国"],
+    "order": [0, 2, 3, 1],
+    "star": 1,
+    "explanation": "我が国に限ったことではない＝我が国だけのことではない",
+    "meaning": "A falling birthrate and aging population is not a problem only our country has."
+  },
+  {
+    "id": 8,
+    "before": "",
+    "after": "忘れてしまうので困っている。",
+    "pieces": ["せいか", "そばから", "聞いた", "年をとった"],
+    "order": [3, 0, 2, 1],
+    "star": 1,
+    "explanation": "聞いたそばから＝聞いてもすぐに",
+    "meaning": "Perhaps because I have gotten older, I forget things as soon as I hear them."
+  },
+  {
+    "id": 9,
+    "before": "平日ですら",
+    "after": "客が来るという。",
+    "pieces": ["500人からの", "行列ができる", "人気店とあって", "連休ともなると"],
+    "order": [1, 2, 3, 0],
+    "star": 0,
+    "explanation": "平日ですら＝平日でさえ。人気店とあって＝人気店だから。連休ともなると＝連休という状況になると。500人からの客＝500人以上の客。",
+    "meaning": "It is a popular shop with a queue even on weekdays, so on a long weekend 500 or more customers come."
+  },
+  {
+    "id": 10,
+    "before": "彼のレポートは何度も検討を重ねた",
+    "after": "濃い内容のものだった。",
+    "pieces": ["ほど", "他の学生のとは", "比べものにならない", "だけあって"],
+    "order": [3, 1, 2, 0],
+    "star": 0,
+    "explanation": "検討を重ねただけあって＝検討を重ねたから当然。他の学生のとは比べものにならない＝他の学生のとは比べることができない。",
+    "meaning": "After all those rounds of revision, his report was, as you'd expect, far richer than the other students'."
+  },
+  {
+    "id": 11,
+    "before": "前もって",
+    "after": "すんだ。",
+    "pieces": ["並ばずに", "予約しておいた", "長い時間", "おかげで"],
+    "order": [1, 3, 2, 0],
+    "star": 0,
+    "explanation": "並ばずにすんだ＝並ばなくてもよかった",
+    "meaning": "Because I had booked ahead, I got by without waiting in a long line."
+  },
+  {
+    "id": 12,
+    "before": "どんなに大変でも、必ず",
+    "after": "わけにはいかない。",
+    "pieces": ["やる", "やらない", "手前", "と言った"],
+    "order": [0, 3, 2, 1],
+    "star": 0,
+    "explanation": "やらないわけにはいかない＝やらなければならない",
+    "meaning": "However hard it is, having said I would do it, I have no choice but to do it."
+  },
+  {
+    "id": 13,
+    "before": "独立の機会は",
+    "after": "店長に打ち明けた。",
+    "pieces": ["思い", "思い切って", "ほかにないと", "今をおいて"],
+    "order": [3, 2, 0, 1],
+    "star": 3,
+    "explanation": "今をおいてほかにない＝今以外にない",
+    "meaning": "Thinking there was no chance to go independent except now, I made up my mind and told the manager."
+  },
+  {
+    "id": 14,
+    "before": "",
+    "after": "からこそ、今の地位があるのだと思う。",
+    "pieces": ["それでもあきらめなかった", "失敗を繰り返してきた", "が", "数えればきりがないほど"],
+    "order": [3, 1, 2, 0],
+    "star": 3,
+    "explanation": "数えればきりがない＝数えきれないほど多い",
+    "meaning": "I failed more times than I can count, but I have this position now precisely because I did not give up."
+  },
+  {
+    "id": 15,
+    "before": "あまりに疲れていたので、うちへ帰っても",
+    "after": "せずに、そのままベッドに倒れこんだ。",
+    "pieces": ["食事", "着替え", "はおろか", "すら"],
+    "order": [0, 2, 1, 3],
+    "star": 3,
+    "explanation": "食事はおろか着替えすらせずに＝食事はもちろん、着替えさえしないで",
+    "meaning": "I was so tired that once home I did not even change, let alone eat, and fell into bed."
+  }
+]
