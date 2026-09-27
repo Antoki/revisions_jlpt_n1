@@ -160,8 +160,8 @@ export function GrammarTextSession({
 
   function revealBlank(blankId: number) {
     const node = blankRefs.current.get(blankId);
-    const container = passageRef.current?.querySelector("[data-passage-scroll]");
-    if (!node || !(container instanceof HTMLElement)) return;
+    const container = passageRef.current;
+    if (!node || !container) return;
     const nodeRect = node.getBoundingClientRect();
     const containerRect = container.getBoundingClientRect();
     const above = nodeRect.top - containerRect.top;
@@ -200,7 +200,7 @@ export function GrammarTextSession({
 
       <article
         ref={passageRef}
-        className="sticky top-14 z-[1] rounded-xl border border-line bg-surface px-4 py-4"
+        className="sticky top-14 z-[1] max-h-64 overflow-y-auto rounded-xl border border-line bg-surface px-4 py-4"
       >
         {passage.lead ? (
           <p className="text-xs leading-relaxed text-muted">{passage.lead}</p>
@@ -208,8 +208,7 @@ export function GrammarTextSession({
         <div
           key={passage.id}
           lang="ja"
-          data-passage-scroll
-          className={`max-h-56 overflow-y-auto text-base leading-loose whitespace-pre-wrap text-ink ${
+          className={`text-base leading-loose whitespace-pre-wrap text-ink ${
             passage.lead ? "mt-3" : ""
           }`}
         >
@@ -264,7 +263,7 @@ export function GrammarTextSession({
         ref={feedbackRef}
         tabIndex={-1}
         aria-live="polite"
-        className="scroll-mt-80 outline-none"
+        className="scroll-mt-72 outline-none"
       >
         {checked ? (
           <ul className="flex flex-col gap-2">
