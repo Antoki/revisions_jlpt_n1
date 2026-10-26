@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SentenceBuildSession } from "@/components/sentence-build/SentenceBuildSession";
+import { SentenceBuildPractice } from "@/components/sentence-build/SentenceBuildPractice";
 import { getSentenceBuild } from "@/lib/sentence-build";
 
 export const metadata: Metadata = {
@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 export default function BuildPage() {
   const items = getSentenceBuild();
 
-  return <SentenceBuildSession items={items} />;
+  return <SentenceBuildPractice book={items} />;
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GrammarTextSession } from "@/components/grammar-text/GrammarTextSession";
+import { GrammarTextPractice } from "@/components/grammar-text/GrammarTextPractice";
 import { getGrammarText } from "@/lib/grammar-text";
 
 export const metadata: Metadata = {
@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function TextPage() {
-  return <GrammarTextSession passages={getGrammarText()} />;
+  return <GrammarTextPractice book={getGrammarText()} />;
 }

@@ -3,6 +3,10 @@
 import { Check, ListOrdered, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import {
+  type GenerateRequest,
+  SetActions,
+} from "@/components/generate/SetActions";
+import {
   assembledSentence,
   starPieceIndex,
   type SentenceBuildItem,
@@ -10,7 +14,21 @@ import {
 
 type Phase = "idle" | "active" | "summary";
 
-export function SentenceBuildSession({ items }: { items: SentenceBuildItem[] }) {
+export function SentenceBuildSession({
+  items,
+  summary,
+  generate,
+  alternateLabel,
+  onAlternate,
+  onBegin,
+}: {
+  items: SentenceBuildItem[];
+  summary?: string;
+  generate?: GenerateRequest;
+  alternateLabel?: string;
+  onAlternate?: () => void;
+  onBegin?: () => void;
+}) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -51,23 +69,24 @@ export function SentenceBuildSession({ items }: { items: SentenceBuildItem[] }) 
         </div>
         <div className="rounded-xl border border-line bg-surface px-4 py-6">
           <ul className="space-y-2 text-sm text-ink">
-            <li>{`${items.length} questions, in book order`}</li>
+            <li>{summary ?? `${items.length} questions, in book order`}</li>
             <li>The star is the only blank you answer</li>
             <li>A note appears after you check, when the key has one</li>
+            {generate ? <li>Or write a new JLPT N1 set for today</li> : null}
           </ul>
-          <button
-            type="button"
-            onClick={() => {
+          <SetActions
+            onStart={() => {
+              onBegin?.();
               setPhase("active");
               setIndex(0);
               setSelected(null);
               setChecked(false);
               setResults([]);
             }}
-            className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-          >
-            Start
-          </button>
+            generate={generate}
+            alternateLabel={alternateLabel}
+            onAlternate={onAlternate}
+          />
         </div>
       </div>
     );
@@ -125,6 +144,15 @@ export function SentenceBuildSession({ items }: { items: SentenceBuildItem[] }) 
         >
           Start again
         </button>
+        {onAlternate && alternateLabel ? (
+          <button
+            type="button"
+            onClick={onAlternate}
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-line bg-paper px-5 text-sm font-medium text-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            {alternateLabel}
+          </button>
+        ) : null}
       </div>
     );
   }

@@ -3,6 +3,10 @@
 import { Check, FileText, X } from "lucide-react";
 import { useEffect, useRef, useState, type RefObject } from "react";
 import {
+  type GenerateRequest,
+  SetActions,
+} from "@/components/generate/SetActions";
+import {
   insertedText,
   listQuestions,
   type GrammarTextBlank,
@@ -13,8 +17,18 @@ type Phase = "idle" | "active" | "summary";
 
 export function GrammarTextSession({
   passages,
+  summary,
+  generate,
+  alternateLabel,
+  onAlternate,
+  onBegin,
 }: {
   passages: GrammarTextPassage[];
+  summary?: string;
+  generate?: GenerateRequest;
+  alternateLabel?: string;
+  onAlternate?: () => void;
+  onBegin?: () => void;
 }) {
   const questions = listQuestions(passages);
   const [phase, setPhase] = useState<Phase>("idle");
@@ -33,6 +47,7 @@ export function GrammarTextSession({
   const passage = passages[passageIndex];
 
   function begin() {
+    onBegin?.();
     const first = passages[0];
     setPhase("active");
     setPassageIndex(0);
@@ -73,18 +88,21 @@ export function GrammarTextSession({
         </div>
         <div className="rounded-xl border border-line bg-surface px-4 py-6">
           <ul className="space-y-2 text-sm text-ink">
-            <li>{`${passages.length} passages, ${questions.length} blanks, in book order`}</li>
+            <li>
+              {summary ??
+                `${passages.length} passages, ${questions.length} blanks, in book order`}
+            </li>
             <li>Every blank for a passage is shown together</li>
             <li>Select a numbered blank, then the expression you want</li>
             <li>A note appears after you check the passage</li>
+            {generate ? <li>Or write a new JLPT N1 passage for today</li> : null}
           </ul>
-          <button
-            type="button"
-            onClick={begin}
-            className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-accent px-5 text-sm font-medium text-paper transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-          >
-            Start
-          </button>
+          <SetActions
+            onStart={begin}
+            generate={generate}
+            alternateLabel={alternateLabel}
+            onAlternate={onAlternate}
+          />
         </div>
       </div>
     );
@@ -135,6 +153,15 @@ export function GrammarTextSession({
         >
           Start again
         </button>
+        {onAlternate && alternateLabel ? (
+          <button
+            type="button"
+            onClick={onAlternate}
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-line bg-paper px-5 text-sm font-medium text-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            {alternateLabel}
+          </button>
+        ) : null}
       </div>
     );
   }
